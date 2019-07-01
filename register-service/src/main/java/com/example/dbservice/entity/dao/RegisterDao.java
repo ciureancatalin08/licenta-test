@@ -12,7 +12,9 @@ public class RegisterDao {
     public void saveUser(UserEntity userEntity){
         registerService.saveUser(userEntity);
     }
-
+    public UserEntity getUser(UserEntity userEntity){
+        return registerService.getUser(userEntity);
+    }
     public boolean userAlreadyExists(String userName){
         return registerService.userAlreadyExists(userName);
     }

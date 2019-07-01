@@ -12,7 +12,7 @@ import java.util.List;
 public interface RegisterRepository extends JpaRepository<UserEntity, Long> {
 
     @Query("SELECT u FROM UserEntity u WHERE u.userName= :username")
-    List<UserEntity> findByUsername(@Param("username") String username);
+    UserEntity findByUsername(@Param("username") String username);
 
     @Query("SELECT u FROM UserEntity u WHERE u.userName= :username AND u.password= :password")
     List<UserEntity> findByUsernameAndPassword(@Param("username") String username, @Param("password") String password);

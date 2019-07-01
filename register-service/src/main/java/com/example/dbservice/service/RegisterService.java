@@ -23,10 +23,15 @@ public class RegisterService {
     public UserEntity saveUser(UserEntity userEntity) {
         return registerRepository.save(userEntity);
     }
+    @Transactional(propagation = Propagation.REQUIRED)
+    public UserEntity getUser(UserEntity userEntity) {
+        return registerRepository.findByUsername(userEntity.getUserName());
+    }
+
 
     @Transactional(propagation = Propagation.REQUIRED)
     public Boolean userAlreadyExists(String userName) {
-        if(!registerRepository.findByUsername(userName).isEmpty()) {
+        if(registerRepository.findByUsername(userName)!=null) {
             return true;
         }
         else

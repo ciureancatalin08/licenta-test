@@ -28,26 +28,46 @@ public class HelloController {
 
     UserDto userDto;
 
-    @PostMapping (value = "/register",consumes = "multipart/form-data")
+//    @PostMapping (value = "/register",consumes = "multipart/form-data")
+//    public String registerUser(
+//            @RequestParam(value="file", required = false) MultipartFile file,
+//            @RequestParam("firstName") String firstName,
+//            @RequestParam("lastName") String lastName,
+//            @RequestParam("userName") String userName,
+//            @RequestParam("email") String email,
+//            @RequestParam("password") String password,
+//            @RequestParam("role") String role ) {
+//        userDto = new UserDto();
+//        userDto.setUserName(userName);
+//        userDto.setFirstName(firstName);
+//        userDto.setLastName(lastName);
+//        userDto.setEmail(email);
+//        userDto.setPassword(password);
+//        userDto.setRole(role);
+//        if (file != null) {
+//            saveFingerprint(file, userName);
+//            userDto.setFingerprintPath(path+"fingerPrints/"+userName+".tif");
+//        }
+//    return registerClient.register(userDto);
+//    }
+  @PostMapping (value = "/register")
     public String registerUser(
             @RequestParam(value="file", required = false) MultipartFile file,
-            @RequestParam("firstName") String firstName,
-            @RequestParam("lastName") String lastName,
+
             @RequestParam("userName") String userName,
-            @RequestParam("email") String email,
-            @RequestParam("password") String password,
-            @RequestParam("role") String role ) {
+            @RequestParam("password") String password)
+             {
         userDto = new UserDto();
         userDto.setUserName(userName);
-        userDto.setFirstName(firstName);
-        userDto.setLastName(lastName);
-        userDto.setEmail(email);
+        userDto.setFirstName("ciurean");
+        userDto.setLastName("abcd");
+        userDto.setEmail("abcd");
         userDto.setPassword(password);
-        userDto.setRole(role);
-        if (file != null) {
-            saveFingerprint(file, userName);
-            userDto.setFingerprintPath(path+"fingerPrints/"+userName+".tif");
-        }
+        userDto.setRole("admin");
+//        if (file != null) {
+//            saveFingerprint(file, userName);
+//            userDto.setFingerprintPath(path+"fingerPrints/"+userName+".tif");
+//        }
     return registerClient.register(userDto);
     }
 

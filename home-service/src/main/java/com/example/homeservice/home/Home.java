@@ -15,32 +15,24 @@ public class Home {
     @ApiModelProperty(hidden = true)
     private Long id;
 
-    @NotNull
-    // @Size(min = 5, max = 20, message = "terminalId must be between 5 and 10 characters long")
-    private String roomName;
+
 
     @Column(name = "createtime", columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     @JsonIgnore
     @ApiModelProperty(hidden = true)
     private Date createtime;
 
-    @NotNull
-//    @Pattern(regexp = "\\d+\\.\\d+")
+    private long userId;
+    private String userName;
     private int temperature;
-
-    @NotNull
     private int humidity;
-
-    @NotNull
     private int heatIndex;
+    private boolean lights;
+    private boolean  coolingFans;
+    private boolean alarms;
 
-    public String getRoomName() {
-        return roomName;
-    }
 
-    public void setRoomName(String roomName) {
-        this.roomName = roomName;
-    }
+
 
     public Date getCreatetime() {
         return createtime;
@@ -72,5 +64,53 @@ public class Home {
 
     public void setHeatIndex(int heatIndex) {
         this.heatIndex = heatIndex;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(long userId) {
+        this.userId = userId;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public boolean isLights() {
+        return lights;
+    }
+
+    public void setLights(boolean lights) {
+        this.lights = lights;
+    }
+
+    public boolean isCoolingFans() {
+        return coolingFans;
+    }
+
+    public void setCoolingFans(boolean coolingFans) {
+        this.coolingFans = coolingFans;
+    }
+
+    public boolean isAlarms() {
+        return alarms;
+    }
+
+    public void setAlarms(boolean alarms) {
+        this.alarms = alarms;
     }
 }

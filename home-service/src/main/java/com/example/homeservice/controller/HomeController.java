@@ -1,7 +1,13 @@
 package com.example.homeservice.controller;
 
+import com.example.homeservice.dto.UserHomeConverter;
+import com.example.homeservice.dto.UserHomeDto;
 import com.example.homeservice.home.Home;
+import com.example.homeservice.services.HomeService;
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;
@@ -10,22 +16,26 @@ import java.util.concurrent.atomic.AtomicLong;
 @RequestMapping(value = "/test")
 public class HomeController {
 
+    @Autowired
+    HomeService homeService;
 
-//
-//
-//        @RequestMapping(method = RequestMethod.GET)
-//        public Home save() {
-////            System.out.println(id);
-//            Home home = new Home();
-//            home.setTemperature(50);
-//            home.setHumidity(30);
-//            home.setHeatIndex(16);
-//            System.out.println("request received");
-//            return home;
-//        }
-@PostMapping("/{temperature}")
-public void save(@PathVariable int temperature){
-    System.out.println(temperature);
-}
+    @Autowired
+    UserHomeConverter userHomeConverter;
 
+    @RequestMapping(value = "/home",method = RequestMethod.POST)
+    public ResponseEntity<String> save(@RequestBody UserHomeDto userHomeDto) {
+        System.out.println("i'm here ");
+        System.out.println(userHomeDto.getId());
+        System.out.println(userHomeDto.getUserName());
+        homeService.saveUser(userHomeConverter.convertInputDTOtoEntity(userHomeDto));
+
+        System.out.println("request received");
+        return new ResponseEntity<>(JSONObject.quote("Ok"), HttpStatus.OK);
     }
+}
+//@PostMapping("/{temperature}")
+//public void save(@PathVariable int temperature){
+//    System.out.println(temperature);
+//}
+//
+//    }

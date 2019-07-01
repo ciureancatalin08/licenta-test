@@ -19,6 +19,12 @@ public class UserConverter {
         u.setFingerPrintTemplate(userInputDTO.getFingerTemplate());
         return u;
     }
+    public UserHomeDto convertEntityToUserHomeDto(UserEntity userEntity){
+        final UserHomeDto userHomeDto = new UserHomeDto();
+        userHomeDto.setId(userEntity.getId());
+        userHomeDto.setUserName(userEntity.getUserName());
+        return userHomeDto;
+    }
 
 //    public UserDTO convertEntityDTO(UserEntity userEntity) {
 //        final UserDTO u = new UserDTO();
