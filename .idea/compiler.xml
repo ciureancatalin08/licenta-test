@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="home-service" />
+        <module name="hello-eureka-server" />
+        <module name="spring-boot-zuulgatwayproxy" />
+        <module name="login-service" />
+        <module name="register-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hello-eureka-server" target="1.8" />
+      <module name="home-service" target="1.8" />
+      <module name="login-service" target="1.8" />
+      <module name="register-service" target="1.8" />
+      <module name="spring-boot-zuulgatwayproxy" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hello-eureka-server" options="-parameters" />
+      <module name="home-service" options="-parameters" />
+      <module name="login-service" options="-parameters" />
+      <module name="register-service" options="-parameters" />
+      <module name="spring-boot-zuulgatwayproxy" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -3,4 +3,16 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/login-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/home-service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/pom.xml" />
+        <option value="$PROJECT_DIR$/register-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
