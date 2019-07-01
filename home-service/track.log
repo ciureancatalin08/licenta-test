@@ -1,0 +1,44 @@
+2019-06-26 14:02:11.462  INFO 14824 --- [main] c.e.homeservice.HomeServiceApplication   : No active profile set, falling back to default profiles: default
+2019-06-26 14:02:12.763  INFO 14824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-26 14:02:12.764  INFO 14824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-06-26 14:02:12.770  INFO 14824 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;.]
+2019-06-26 14:02:12.935  INFO 14824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-26 14:02:16.506  WARN 14824 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 14:02:16.507  INFO 14824 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 14:02:16.511  WARN 14824 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-06-26 14:02:16.511  INFO 14824 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-06-26 14:02:17.348  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-06-26 14:02:17.640  INFO 14824 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-06-26 14:02:17.641  INFO 14824 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-06-26 14:02:17.743  INFO 14824 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-06-26 14:02:17.744  INFO 14824 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-06-26 14:02:18.004  INFO 14824 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 14:02:18.076  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-06-26 14:02:18.076  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-06-26 14:02:18.077  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-06-26 14:02:18.077  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-06-26 14:02:18.077  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-06-26 14:02:18.077  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-06-26 14:02:18.077  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-06-26 14:02:18.702  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-06-26 14:02:18.703  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-06-26 14:02:18.705  INFO 14824 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-06-26 14:02:18.709  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1561546938708 with initial instances count: 0
+2019-06-26 14:02:18.711  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1561546938711, current=UP, previous=STARTING]
+2019-06-26 14:02:18.713  INFO 14824 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOME-SERVICE/:home-service:4f1617ead7a853846d1aa97c4b595e61: registering service...
+2019-06-26 14:02:18.726  INFO 14824 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-06-26 14:02:18.743  INFO 14824 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-06-26 14:02:18.754  INFO 14824 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-06-26 14:02:18.788  INFO 14824 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOME-SERVICE/:home-service:4f1617ead7a853846d1aa97c4b595e61 - registration status: 204
+2019-06-26 14:02:19.354  INFO 14824 --- [main] c.e.homeservice.HomeServiceApplication   : Started HomeServiceApplication in 8.947 seconds (JVM running for 9.667)
+2019-06-26 14:02:48.706  INFO 14824 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-06-26 14:02:48.707  INFO 14824 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-06-26 14:02:48.708  INFO 14824 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-06-26 14:02:48.709  INFO 14824 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-06-26 14:02:48.711  INFO 14824 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-06-26 14:02:48.711  INFO 14824 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2019-06-26 14:02:48.711  INFO 14824 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-06-26 14:02:48.767  INFO 14824 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-06-26 14:07:18.081  INFO 14824 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 14:12:18.084  INFO 14824 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-06-26 14:17:18.086  INFO 14824 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

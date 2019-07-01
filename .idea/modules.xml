@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hello-eureka-server/hello-eureka-server.iml" filepath="$PROJECT_DIR$/hello-eureka-server/hello-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/home-service/home-service.iml" filepath="$PROJECT_DIR$/home-service/home-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/licenta-test1.iml" filepath="$PROJECT_DIR$/.idea/licenta-test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login-service/login-service.iml" filepath="$PROJECT_DIR$/login-service/login-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/register-service/register-service.iml" filepath="$PROJECT_DIR$/register-service/register-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/spring-boot-zuulgatwayproxy.iml" filepath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/spring-boot-zuulgatwayproxy.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="532.25" y="154.0">com.example.loginservice.entity.dao.UserDao</node>
+    <node x="355.37499999999994" y="241.0">com.example.loginservice.controller.LoginController</node>
+    <node x="408.0" y="400.0">com.example.loginservice.LoginServiceApplication</node>
+    <node x="371.37499999999994" y="77.0">com.example.loginservice.configuration.BussinesException</node>
+    <node x="2.999999999999943" y="77.0">com.example.loginservice.entity.dto.UserDto</node>
+    <node x="206.87499999999994" y="154.0">com.example.loginservice.security.JwtGenerator</node>
+    <node x="586.75" y="0.0">com.example.loginservice.repository.UserRepository</node>
+    <node x="648.25" y="154.0">com.example.loginservice.controller.fingerprint.FingerPrintResource</node>
+    <node x="358.87499999999994" y="154.0">com.example.loginservice.entity.message.MessageCatalog</node>
+    <node x="169.55827067669168" y="318.0">com.example.loginservice.facade.LoginFacade</node>
+    <node x="47.87499999999994" y="154.0">com.example.loginservice.entity.dto.UserConverter</node>
+    <node x="126.05827067669168" y="395.0">com.example.loginservice.resource.LoginResource</node>
+    <node x="597.25" y="77.0">com.example.loginservice.service.UserService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.loginservice.facade.LoginFacade" target="com.example.loginservice.controller.LoginController">
+      <point x="31.25" y="-13.5" />
+      <point x="263.3082706766917" y="293.0" />
+      <point x="431.87499999999994" y="293.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.entity.dto.UserConverter">
+      <point x="-43.714285714285666" y="-13.5" />
+      <point x="388.1607142857143" y="211.0" />
+      <point x="117.37499999999994" y="211.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.entity.message.MessageCatalog" target="com.example.loginservice.configuration.BussinesException">
+      <point x="36.5" y="-13.5" />
+      <point x="468.37499999999994" y="134.0" />
+      <point x="455.37499999999994" y="134.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.service.UserService" target="com.example.loginservice.repository.UserRepository">
+      <point x="-5.6843418860808015E-14" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.entity.dao.UserDao" target="com.example.loginservice.service.UserService">
+      <point x="0.0" y="-13.5" />
+      <point x="580.25" y="134.0" />
+      <point x="628.5" y="134.0" />
+      <point x="-31.25" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.entity.message.MessageCatalog">
+      <point x="0.0" y="-13.5" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.entity.dao.UserDao">
+      <point x="43.71428571428572" y="-13.5" />
+      <point x="475.58928571428567" y="211.0" />
+      <point x="580.25" y="211.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.facade.LoginFacade" target="com.example.loginservice.entity.dto.UserDto">
+      <point x="-31.25" y="-13.5" />
+      <point x="200.80827067669168" y="293.0" />
+      <point x="26.374999999999943" y="293.0" />
+      <point x="26.374999999999943" y="124.0" />
+      <point x="38.99999999999994" y="124.0" />
+      <point x="-12.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.resource.LoginResource" target="com.example.loginservice.entity.dto.UserDto">
+      <point x="-34.75" y="-13.5" />
+      <point x="160.80827067669168" y="370.0" />
+      <point x="0.0" y="370.0" />
+      <point x="0.0" y="134.0" />
+      <point x="14.999999999999943" y="134.0" />
+      <point x="-36.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.security.JwtGenerator">
+      <point x="-21.857142857142833" y="-13.5" />
+      <point x="410.0178571428571" y="201.0" />
+      <point x="272.87499999999994" y="201.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.entity.dto.UserConverter" target="com.example.loginservice.entity.dto.UserDto">
+      <point x="0.0" y="-13.5" />
+      <point x="117.37499999999994" y="134.0" />
+      <point x="86.99999999999994" y="134.0" />
+      <point x="36.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.controller.fingerprint.FingerPrintResource" target="com.example.loginservice.service.UserService">
+      <point x="0.0" y="-13.5" />
+      <point x="739.25" y="134.0" />
+      <point x="691.0" y="134.0" />
+      <point x="31.249999999999943" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.resource.LoginResource" target="com.example.loginservice.facade.LoginFacade">
+      <point x="34.75" y="-13.5" />
+      <point x="230.30827067669168" y="370.0" />
+      <point x="232.05827067669168" y="370.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.configuration.BussinesException">
+      <point x="21.85714285714289" y="-13.5" />
+      <point x="453.73214285714283" y="201.0" />
+      <point x="515.375" y="201.0" />
+      <point x="515.375" y="134.0" />
+      <point x="511.37499999999994" y="134.0" />
+      <point x="56.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.controller.fingerprint.FingerPrintResource">
+      <point x="65.57142857142856" y="-13.5" />
+      <point x="497.4464285714285" y="221.0" />
+      <point x="739.25" y="221.0" />
+      <point x="0.0" y="13.5" />
+    </edge>
+    <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.entity.dto.UserDto">
+      <point x="-65.57142857142856" y="-13.5" />
+      <point x="366.3035714285714" y="221.0" />
+      <point x="37.37499999999994" y="221.0" />
+      <point x="37.37499999999994" y="134.0" />
+      <point x="62.99999999999994" y="134.0" />
+      <point x="12.0" y="13.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="323.0" y="317.0" />
+  <SelectedNodes>
+    <node>com.example.loginservice.LoginServiceApplication</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
