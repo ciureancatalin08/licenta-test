@@ -6,8 +6,16 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
-public interface HomeRepository extends CrudRepository<HomeEntity,Long> {
+public interface HomeRepository extends CrudRepository<HomeEntity, Long> {
     @Modifying
     @Query("update   HomeEntity h Set h.lights= :state")
     void setLigths(@Param("state") String state);
+
+    @Modifying
+    @Query("update   HomeEntity h Set h.coolingFans= :state")
+    void setFans(@Param("state") String state);
+
+    @Modifying
+    @Query("update   HomeEntity h Set h.alarms= :state")
+    void setAlarms(@Param("state") String state);
 }

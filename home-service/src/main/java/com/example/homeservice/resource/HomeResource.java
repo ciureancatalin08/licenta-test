@@ -29,14 +29,16 @@ public class HomeResource {
         return new ResponseEntity<>(JSONObject.quote(homeFacade.lightsControl(state)), HttpStatus.OK);
 
     }
+
+    @RequestMapping(value = "/fans", method = RequestMethod.POST)
+    public ResponseEntity<String> fans(@RequestBody String state) {
+        return new ResponseEntity<>(JSONObject.quote(homeFacade.fansControl(state)), HttpStatus.OK);
+
+    }
+
+    @RequestMapping(value = "/alarms", method = RequestMethod.POST)
+    public ResponseEntity<String> alarms(@RequestBody String state) {
+        return new ResponseEntity<>(JSONObject.quote(homeFacade.alarmsControl(state)), HttpStatus.OK);
+
+    }
 }
-//    @RequestMapping(value = "/fans", method = RequestMethod.POST)
-//    public ResponseEntity<String> lights(@RequestBody String state) {
-//        return new ResponseEntity<>(JSONObject.quote(homeFacade.addUser(userHomeDto)), HttpStatus.OK);
-//
-//    } @RequestMapping(value = "/alarms", method = RequestMethod.POST)
-//    public ResponseEntity<String> lights(@RequestBody String state) {
-//        return new ResponseEntity<>(JSONObject.quote(homeFacade.addUser(userHomeDto)), HttpStatus.OK);
-//
-//    }
-//}

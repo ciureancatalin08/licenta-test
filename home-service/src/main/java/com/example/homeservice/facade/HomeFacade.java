@@ -16,7 +16,11 @@ public class HomeFacade {
     public String lightsControl(String state){
      return homeController.lightsController(state);
     };
-//    public String fansControl(String state){};
-//    public String lalarmsControl(String state){};
+    public String fansControl(String state){
+        return homeController.fansController(state);
+    };
+    public String alarmsControl(String state){
+        return homeController.alarmsController(state);
+    };
 }
 

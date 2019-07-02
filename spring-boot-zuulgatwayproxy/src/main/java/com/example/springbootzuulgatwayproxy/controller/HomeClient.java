@@ -8,6 +8,12 @@ import org.springframework.web.bind.annotation.PostMapping;
     public interface HomeClient {
         @PostMapping("/home/lights")
         public String setLights(String state);
+
+        @PostMapping("/home/fans")
+        public String setFans(String state);
+
+        @PostMapping("/home/alarms")
+        public String setAlarms(String state);
     }
 
 

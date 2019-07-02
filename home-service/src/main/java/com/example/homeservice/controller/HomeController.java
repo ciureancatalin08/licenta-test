@@ -27,6 +27,7 @@ public class HomeController {
     public String save(UserHomeDto userHomeDto) {
         return homeDao.save(userHomeConverter.convertInputDTOtoEntity(userHomeDto));
     }
+
     public String lightsController(String state) {
         if (state.equals("ON")) {
             requestSender.asyncMethodWithReturnType(MessageCatalog.LIGHTS_ON);
@@ -37,12 +38,26 @@ public class HomeController {
         }
 
     }
-//    public String fansController(String state){};
-//    public String alarmsController(String state){};
+
+    public String fansController(String state) {
+        if (state.equals("ON")) {
+            requestSender.asyncMethodWithReturnType(MessageCatalog.FANS_ON);
+            return homeDao.setFans("ON");
+        } else {
+            requestSender.asyncMethodWithReturnType(MessageCatalog.FANS_OFF);
+            return homeDao.setFans("OFF");
+        }
+
+    }
+
+    public String alarmsController(String state) {
+        if (state.equals("ON")) {
+            requestSender.asyncMethodWithReturnType(MessageCatalog.ALARMS_ON);
+            return homeDao.setAlarms("ON");
+        } else {
+            requestSender.asyncMethodWithReturnType(MessageCatalog.ALARMS_OFF);
+            return homeDao.setAlarms("OFF");
+        }
+
+    }
 }
-//@PostMapping("/{temperature}")
-//public void save(@PathVariable int temperature){
-//    System.out.println(temperature);
-//}
-//
-//    }

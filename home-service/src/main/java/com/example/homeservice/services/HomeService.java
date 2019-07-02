@@ -19,9 +19,15 @@ public class HomeService {
     }
 
     @Transactional(propagation = Propagation.REQUIRED)
-
     public void setLights(String state) {
-        System.out.println(state);
          homeRepository.setLigths(state);
+    } @Transactional(propagation = Propagation.REQUIRED)
+    public void setFans(String state) {
+         homeRepository.setFans(state);
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    public void setAlarms(String state) {
+        homeRepository.setAlarms(state);
     }
 }

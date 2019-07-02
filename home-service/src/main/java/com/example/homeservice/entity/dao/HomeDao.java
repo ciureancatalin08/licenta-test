@@ -16,10 +16,21 @@ public class HomeDao {
         return "Record added";
 
     }
-    public String setLights(String state) {
 
+    public String setLights(String state) {
         homeService.setLights(state);
         return "Lights updated";
 
     }
+
+    public String setFans(String state) {
+        homeService.setFans(state);
+        return "Fans updated";
+    }
+
+    public String setAlarms(String state) {
+        homeService.setAlarms(state);
+        return "Alarms updated";
+    }
+
 }
