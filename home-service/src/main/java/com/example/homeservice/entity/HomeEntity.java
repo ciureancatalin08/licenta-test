@@ -15,7 +15,6 @@ public class HomeEntity {
     private Long id;
 
 
-
     @Column(name = "createtime", columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     @JsonIgnore
     @ApiModelProperty(hidden = true)
@@ -26,11 +25,9 @@ public class HomeEntity {
     private int temperature;
     private int humidity;
     private int heatIndex;
-    private boolean lights;
-    private boolean  coolingFans;
-    private boolean alarms;
-
-
+    private String lights;
+    private String coolingFans;
+    private String alarms;
 
 
     public Date getCreatetime() {
@@ -89,27 +86,29 @@ public class HomeEntity {
         this.userName = userName;
     }
 
-    public boolean isLights() {
+    public String getLights() {
         return lights;
     }
 
-    public void setLights(boolean lights) {
+    public void setLights(String lights) {
         this.lights = lights;
     }
 
-    public boolean isCoolingFans() {
+    public String getCoolingFans() {
         return coolingFans;
     }
 
-    public void setCoolingFans(boolean coolingFans) {
+    public void setCoolingFans(String coolingFans) {
         this.coolingFans = coolingFans;
     }
 
-    public boolean isAlarms() {
+    public String getAlarms() {
         return alarms;
     }
 
-    public void setAlarms(boolean alarms) {
+    public void setAlarms(String alarms) {
         this.alarms = alarms;
     }
 }
+
+

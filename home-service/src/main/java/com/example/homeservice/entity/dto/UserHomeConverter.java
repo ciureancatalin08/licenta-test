@@ -1,20 +1,20 @@
-package com.example.homeservice.dto;
+package com.example.homeservice.entity.dto;
 
-import com.example.homeservice.home.Home;
+import com.example.homeservice.entity.HomeEntity;
 import org.springframework.stereotype.Component;
 
 @Component
 public class UserHomeConverter {
-    public Home convertInputDTOtoEntity(UserHomeDto userHomeDto) {
-        final Home home = new Home();
-        home.setUserId(userHomeDto.getId());
-        home.setUserName(userHomeDto.getUserName());
-        home.setTemperature(0);
-        home.setHumidity(0);
-        home.setHeatIndex(0);
-        home.setLights(false);
-        home.setCoolingFans(false);
-        home.setAlarms(false);
-        return home;
+    public HomeEntity convertInputDTOtoEntity(UserHomeDto userHomeDto) {
+        final HomeEntity homeEntity = new HomeEntity();
+        homeEntity.setUserId(userHomeDto.getId());
+        homeEntity.setUserName(userHomeDto.getUserName());
+        homeEntity.setTemperature(0);
+        homeEntity.setHumidity(0);
+        homeEntity.setHeatIndex(0);
+        homeEntity.setLights("OFF");
+        homeEntity.setCoolingFans("OFF");
+        homeEntity.setAlarms("OFF");
+        return homeEntity;
     }
 }

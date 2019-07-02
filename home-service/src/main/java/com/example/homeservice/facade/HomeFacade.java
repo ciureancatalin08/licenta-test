@@ -12,5 +12,11 @@ public class HomeFacade {
     public  String addUser(UserHomeDto userHomeDto){
         return homeController.save(userHomeDto);
     }
+
+    public String lightsControl(String state){
+     return homeController.lightsController(state);
+    };
+//    public String fansControl(String state){};
+//    public String lalarmsControl(String state){};
 }
 

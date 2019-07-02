@@ -1,4 +1,4 @@
-package com.example.homeservice.dto;
+package com.example.homeservice.entity.dto;
 
 public class UserHomeDto {
     private long id;
