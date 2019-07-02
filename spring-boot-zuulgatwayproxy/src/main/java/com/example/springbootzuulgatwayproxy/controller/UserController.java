@@ -28,62 +28,46 @@ public class UserController {
 
     UserDto userDto;
 
-//    @PostMapping (value = "/register",consumes = "multipart/form-data")
-//    public String registerUser(
-//            @RequestParam(value="file", required = false) MultipartFile file,
-//            @RequestParam("firstName") String firstName,
-//            @RequestParam("lastName") String lastName,
-//            @RequestParam("userName") String userName,
-//            @RequestParam("email") String email,
-//            @RequestParam("password") String password,
-//            @RequestParam("role") String role ) {
-//        userDto = new UserDto();
-//        userDto.setUserName(userName);
-//        userDto.setFirstName(firstName);
-//        userDto.setLastName(lastName);
-//        userDto.setEmail(email);
-//        userDto.setPassword(password);
-//        userDto.setRole(role);
-//        if (file != null) {
-//            saveFingerprint(file, userName);
-//            userDto.setFingerprintPath(path+"fingerPrints/"+userName+".tif");
-//        }
-//    return registerClient.register(userDto);
-//    }
-  @PostMapping (value = "/register")
+    @PostMapping (value = "/register",consumes = "multipart/form-data")
     public String registerUser(
             @RequestParam(value="file", required = false) MultipartFile file,
-
+            @RequestParam("firstName") String firstName,
+            @RequestParam("lastName") String lastName,
             @RequestParam("userName") String userName,
-            @RequestParam("password") String password)
-             {
+            @RequestParam("email") String email,
+            @RequestParam("password") String password,
+            @RequestParam("role") String role ) {
         userDto = new UserDto();
         userDto.setUserName(userName);
-        userDto.setFirstName("ciurean");
-        userDto.setLastName("abcd");
-        userDto.setEmail("abcd");
+        userDto.setFirstName(firstName);
+        userDto.setLastName(lastName);
+        userDto.setEmail(email);
         userDto.setPassword(password);
-        userDto.setRole("admin");
-//        if (file != null) {
-//            saveFingerprint(file, userName);
-//            userDto.setFingerprintPath(path+"fingerPrints/"+userName+".tif");
-//        }
+        userDto.setRole(role);
+        if (file != null) {
+            saveFingerprint(file, userName);
+            userDto.setFingerprintPath(path+"fingerPrints/"+userName+".tif");
+        }
+        System.out.println(userDto.getFingerprintPath());
+        System.out.println("here");
     return registerClient.register(userDto);
     }
 
 
 
-    @PostMapping (value = "/login")
+
+    @PostMapping (value = "/login",consumes = "multipart/form-data")
     public String loginUser( @RequestParam("userName") String userName,
-                             @RequestParam("password") String password
+                             @RequestParam("password") String password,
+                             @RequestParam(value="file", required = false) MultipartFile file
                             ){
         UserDto userDto = new UserDto();
         userDto.setUserName(userName);
         userDto.setPassword(password);
-//        if (file != null) {
-//            userDto.setFingerprintPath(path+"candidate/candidate.tif");
-//            setCandidateFingerPrint(file);
-//        }
+        if (file != null) {
+            userDto.setFingerprintPath(path+"candidate/candidate.tif");
+            setCandidateFingerPrint(file);
+        }
     return loginClient.login(userDto);
     }
 
