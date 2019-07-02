@@ -30,7 +30,7 @@ public class RequestSender {
             HttpEntity<UserHomeDto> request = new HttpEntity<>(userHomeDto);
             RestTemplate restTemplate = new RestTemplate();
             restTemplate
-                    .exchange(baseUrl + "/test/home", HttpMethod.POST, request, UserHomeDto.class);
+                    .exchange(baseUrl + "/home/insert", HttpMethod.POST, request, UserHomeDto.class);
             return new AsyncResult<String>("hello world !!!!");
 
 

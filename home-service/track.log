@@ -25,11 +25,11 @@
 2019-06-26 14:02:18.705  INFO 14824 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
 2019-06-26 14:02:18.709  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1561546938708 with initial instances count: 0
 2019-06-26 14:02:18.711  INFO 14824 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1561546938711, current=UP, previous=STARTING]
-2019-06-26 14:02:18.713  INFO 14824 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOME-SERVICE/:home-service:4f1617ead7a853846d1aa97c4b595e61: registering service...
+2019-06-26 14:02:18.713  INFO 14824 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOME-SERVICE/:homeEntity-service:4f1617ead7a853846d1aa97c4b595e61: registering service...
 2019-06-26 14:02:18.726  INFO 14824 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
 2019-06-26 14:02:18.743  INFO 14824 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 2019-06-26 14:02:18.754  INFO 14824 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2019-06-26 14:02:18.788  INFO 14824 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOME-SERVICE/:home-service:4f1617ead7a853846d1aa97c4b595e61 - registration status: 204
+2019-06-26 14:02:18.788  INFO 14824 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOME-SERVICE/:homeEntity-service:4f1617ead7a853846d1aa97c4b595e61 - registration status: 204
 2019-06-26 14:02:19.354  INFO 14824 --- [main] c.e.homeservice.HomeServiceApplication   : Started HomeServiceApplication in 8.947 seconds (JVM running for 9.667)
 2019-06-26 14:02:48.706  INFO 14824 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
 2019-06-26 14:02:48.707  INFO 14824 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null

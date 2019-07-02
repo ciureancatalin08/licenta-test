@@ -1,7 +1,7 @@
 package com.example.homeservice.repository;
 
-import com.example.homeservice.home.Home;
+import com.example.homeservice.entity.HomeEntity;
 import org.springframework.data.repository.CrudRepository;
 
-public interface HomeRepository extends CrudRepository<Home,Long> {
+public interface HomeRepository extends CrudRepository<HomeEntity,Long> {
 }
