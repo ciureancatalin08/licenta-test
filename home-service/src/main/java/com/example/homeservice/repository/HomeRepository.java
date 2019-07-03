@@ -8,14 +8,24 @@ import org.springframework.data.repository.query.Param;
 
 public interface HomeRepository extends CrudRepository<HomeEntity, Long> {
     @Modifying
-    @Query("update   HomeEntity h Set h.lights= :state")
-    void setLigths(@Param("state") String state);
+    @Query("update HomeEntity h Set h.lights= :state where h.userName= :userName")
+    void setLigths(@Param("state") String state, @Param("userName") String userName);
 
     @Modifying
-    @Query("update   HomeEntity h Set h.coolingFans= :state")
-    void setFans(@Param("state") String state);
+    @Query("update   HomeEntity h Set h.coolingFans= :state where h.userName= :userName")
+    void setFans(@Param("state") String state, @Param("userName") String userName);
 
     @Modifying
-    @Query("update   HomeEntity h Set h.alarms= :state")
-    void setAlarms(@Param("state") String state);
+    @Query("update   HomeEntity h Set h.alarms= :state where h.userName= :userName")
+    void setAlarms(@Param("state") String state, @Param("userName") String userName);
+
+
+
+    @Modifying
+    @Query("update   HomeEntity h Set h.humidity= :humidity,h.temperature= :temperature,h.heatIndex= :heatIndex where h.userName= :userName")
+    void setData(@Param("temperature") int temperature, @Param("humidity") int humidity, @Param("heatIndex") int heatIndex, @Param("userName") String userName);
+
+
+    @Query("select h from  HomeEntity h where h.userName= :userName")
+    HomeEntity getData( @Param("userName") String userName);
 }

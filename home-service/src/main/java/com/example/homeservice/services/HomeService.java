@@ -1,6 +1,8 @@
 package com.example.homeservice.services;
 
 import com.example.homeservice.entity.HomeEntity;
+import com.example.homeservice.entity.dto.HomeDataDto;
+import com.example.homeservice.entity.dto.StateDto;
 import com.example.homeservice.repository.HomeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.Modifying;
@@ -19,15 +21,26 @@ public class HomeService {
     }
 
     @Transactional(propagation = Propagation.REQUIRED)
-    public void setLights(String state) {
-         homeRepository.setLigths(state);
-    } @Transactional(propagation = Propagation.REQUIRED)
-    public void setFans(String state) {
-         homeRepository.setFans(state);
+    public void setLights(StateDto stateDto) {
+        homeRepository.setLigths(stateDto.getState(), stateDto.getUserName());
     }
 
     @Transactional(propagation = Propagation.REQUIRED)
-    public void setAlarms(String state) {
-        homeRepository.setAlarms(state);
+    public void setFans(StateDto stateDto) {
+        homeRepository.setFans(stateDto.getState(),stateDto.getUserName());
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    public void setAlarms(StateDto stateDto) {
+        homeRepository.setAlarms(stateDto.getState(),stateDto.getUserName());
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    public void setData(HomeDataDto homeDataDto) {
+        homeRepository.setData(homeDataDto.getTemperature(),homeDataDto.getHumidity(),homeDataDto.getHeatIndex(),homeDataDto.getUserName());
+    }
+    @Transactional(propagation = Propagation.REQUIRED)
+    public HomeEntity getData(String userName) {
+        return homeRepository.getData(userName);
     }
 }

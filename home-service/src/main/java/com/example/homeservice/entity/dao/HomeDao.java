@@ -1,6 +1,8 @@
 package com.example.homeservice.entity.dao;
 
 import com.example.homeservice.entity.HomeEntity;
+import com.example.homeservice.entity.dto.HomeDataDto;
+import com.example.homeservice.entity.dto.StateDto;
 import com.example.homeservice.services.HomeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -17,20 +19,26 @@ public class HomeDao {
 
     }
 
-    public String setLights(String state) {
-        homeService.setLights(state);
+    public String setLights(StateDto stateDto) {
+        homeService.setLights(stateDto);
         return "Lights updated";
 
     }
 
-    public String setFans(String state) {
-        homeService.setFans(state);
+    public String setFans(StateDto stateDto) {
+        homeService.setFans(stateDto);
         return "Fans updated";
     }
 
-    public String setAlarms(String state) {
-        homeService.setAlarms(state);
+    public String setAlarms(StateDto stateDto) {
+        homeService.setAlarms(stateDto);
         return "Alarms updated";
     }
 
+    public void setData(HomeDataDto homeDataDto) {
+        homeService.setData(homeDataDto);
+    }
+    public HomeEntity getData(String userName) {
+        return homeService.getData(userName);
+    }
 }

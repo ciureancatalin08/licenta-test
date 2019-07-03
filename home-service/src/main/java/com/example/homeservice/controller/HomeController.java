@@ -1,17 +1,20 @@
 package com.example.homeservice.controller;
 
 import com.example.homeservice.entity.dao.HomeDao;
-import com.example.homeservice.entity.dto.UserHomeConverter;
-import com.example.homeservice.entity.dto.UserHomeDto;
+import com.example.homeservice.entity.dto.*;
 import com.example.homeservice.entity.message.MessageCatalog;
 import com.example.homeservice.sender.RequestSender;
 import com.example.homeservice.services.HomeService;
+import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
 @Component
 public class HomeController {
@@ -22,42 +25,52 @@ public class HomeController {
     UserHomeConverter userHomeConverter;
     @Autowired
     RequestSender requestSender;
-
+    @Autowired
+    EntityDtoConverter entityDtoConverter;
 
     public String save(UserHomeDto userHomeDto) {
         return homeDao.save(userHomeConverter.convertInputDTOtoEntity(userHomeDto));
     }
 
-    public String lightsController(String state) {
-        if (state.equals("ON")) {
+    public String lightsController(StateDto stateDto) {
+        if (stateDto.getState().equals("ON")) {
+            System.out.println(stateDto.getUserName());
             requestSender.asyncMethodWithReturnType(MessageCatalog.LIGHTS_ON);
-            return homeDao.setLights("ON");
+            return homeDao.setLights(stateDto);
         } else {
             requestSender.asyncMethodWithReturnType(MessageCatalog.LIGHTS_OFF);
-            return homeDao.setLights("OFF");
+            return homeDao.setLights(stateDto);
         }
 
     }
 
-    public String fansController(String state) {
-        if (state.equals("ON")) {
+    public String fansController(StateDto stateDto) {
+        if (stateDto.getState().equals("ON")) {
             requestSender.asyncMethodWithReturnType(MessageCatalog.FANS_ON);
-            return homeDao.setFans("ON");
+            return homeDao.setFans(stateDto);
         } else {
             requestSender.asyncMethodWithReturnType(MessageCatalog.FANS_OFF);
-            return homeDao.setFans("OFF");
+            return homeDao.setFans(stateDto);
         }
 
     }
 
-    public String alarmsController(String state) {
-        if (state.equals("ON")) {
+    public String alarmsController(StateDto stateDto) {
+        if (stateDto.equals("ON")) {
             requestSender.asyncMethodWithReturnType(MessageCatalog.ALARMS_ON);
-            return homeDao.setAlarms("ON");
+            return homeDao.setAlarms(stateDto);
         } else {
             requestSender.asyncMethodWithReturnType(MessageCatalog.ALARMS_OFF);
-            return homeDao.setAlarms("OFF");
+            return homeDao.setAlarms(stateDto);
         }
+
+    }
+
+    public HomeDataDto getData(String userName) {
+
+        homeDao.setData(requestSender.getData(userName));
+
+        return entityDtoConverter.convertInputDTOtoEntity(homeDao.getData(userName));
 
     }
 }
