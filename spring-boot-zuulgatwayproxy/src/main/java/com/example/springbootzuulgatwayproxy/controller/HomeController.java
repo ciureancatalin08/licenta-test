@@ -6,6 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 @RestController
 @RequestMapping(value = "/test")
 
@@ -18,7 +21,12 @@ public class HomeController {
     @GetMapping(value = "/home/data")
     public String getData(@RequestParam String userName
     ) {
-
+        try {
+            String ip = InetAddress.getLocalHost().getHostAddress();
+            System.out.println(ip);
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+       }
         return homeClient.getData(userName);
     }
 

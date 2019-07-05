@@ -10,6 +10,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+
 @RestController
 @RequestMapping(value = "/home")
 public class HomeResource {
@@ -41,7 +43,8 @@ public class HomeResource {
 
     }
     @RequestMapping(value = "/data", method = RequestMethod.GET)
-    public ResponseEntity<HomeDataDto> getData(@RequestParam String userName) {
+    public ResponseEntity<HomeDataDto> getData( @RequestParam String userName) {
+//        System.out.println(httpServletRequest.getRemoteAddr());
         return new ResponseEntity<>(homeFacade.getData(userName), HttpStatus.OK);
 
     }

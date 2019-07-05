@@ -13,6 +13,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
@@ -67,7 +69,12 @@ public class HomeController {
     }
 
     public HomeDataDto getData(String userName) {
-
+        try {
+            String ip = InetAddress.getLocalHost().getHostAddress();
+//            System.out.println(ip);
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
         homeDao.setData(requestSender.getData(userName));
 
         return entityDtoConverter.convertInputDTOtoEntity(homeDao.getData(userName));
