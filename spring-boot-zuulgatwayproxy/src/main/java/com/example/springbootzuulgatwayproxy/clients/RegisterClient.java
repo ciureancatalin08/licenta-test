@@ -1,4 +1,4 @@
-package com.example.springbootzuulgatwayproxy.controller;
+package com.example.springbootzuulgatwayproxy.clients;
 
 import com.example.springbootzuulgatwayproxy.dto.UserDto;
 

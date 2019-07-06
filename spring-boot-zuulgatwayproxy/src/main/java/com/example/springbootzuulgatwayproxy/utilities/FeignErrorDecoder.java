@@ -1,4 +1,4 @@
-package com.example.springbootzuulgatwayproxy.controller;
+package com.example.springbootzuulgatwayproxy.utilities;
 
 import com.google.common.base.Charsets;
 import feign.Response;

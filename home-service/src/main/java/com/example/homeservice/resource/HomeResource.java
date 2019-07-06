@@ -43,8 +43,8 @@ public class HomeResource {
 
     }
     @RequestMapping(value = "/data", method = RequestMethod.GET)
-    public ResponseEntity<HomeDataDto> getData( @RequestParam String userName) {
-//        System.out.println(httpServletRequest.getRemoteAddr());
+    public ResponseEntity<HomeDataDto> getData(HttpServletRequest httpServletRequest, @RequestParam String userName) {
+      System.out.println(httpServletRequest.getRemoteAddr());
         return new ResponseEntity<>(homeFacade.getData(userName), HttpStatus.OK);
 
     }

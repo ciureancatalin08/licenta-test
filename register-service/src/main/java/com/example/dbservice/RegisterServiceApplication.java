@@ -22,10 +22,10 @@ import java.util.Properties;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableAsync
-public class DbServiceApplication {
+public class RegisterServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DbServiceApplication.class, args);
+        SpringApplication.run(RegisterServiceApplication.class, args);
     }
 
     @Bean

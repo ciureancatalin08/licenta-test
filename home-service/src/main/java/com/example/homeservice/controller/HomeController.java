@@ -58,7 +58,7 @@ public class HomeController {
     }
 
     public String alarmsController(StateDto stateDto) {
-        if (stateDto.equals("ON")) {
+        if (stateDto.getState().equals("ON")) {
             requestSender.asyncMethodWithReturnType(MessageCatalog.ALARMS_ON);
             return homeDao.setAlarms(stateDto);
         } else {
