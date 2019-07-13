@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f37348a-7534-4919-b73d-7ded20043cd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/facade/GatewayFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/resource/AuthenticationResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/resource/HomeResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/utilities/ImageSaver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/SimpleCorsFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/configuration/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/configuration/Security.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/resource/HomeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/resource/HomeResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/home-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/home-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/HomeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/HomeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/facade/HomeFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/facade/HomeFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/sender/RequestSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/sender/RequestSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/services/HomeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/services/HomeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-service/src/test/java/com/example/homeservice/HomeEntityServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-service/src/test/java/com/example/homeservice/HomeEntityServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-service/track.log" beforeDir="false" afterPath="$PROJECT_DIR$/home-service/track.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-service/src/main/java/com/example/dbservice/DbServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/register-service/src/main/java/com/example/dbservice/RegisterServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register-service/src/test/java/com/example/dbservice/DbServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/register-service/src/test/java/com/example/dbservice/RegisterServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/utilities/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/SpringBootZuulgatwayproxyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/SpringBootZuulgatwayproxyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/FeignErrorDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/utilities/FeignErrorDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/HomeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/clients/HomeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/LoginClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/clients/LoginClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/RegisterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/clients/RegisterClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/UserController1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/security/JwtGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-service/login.uml" beforeDir="false" afterPath="$PROJECT_DIR$/login-service/login.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register-service/register.uml" beforeDir="false" afterPath="$PROJECT_DIR$/register-service/register.uml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/track.log" beforeDir="false" afterPath="$PROJECT_DIR$/track.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/home-service/target/" />
@@ -40,37 +26,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="121" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/configuration/Security.java">
+        <entry file="file://$PROJECT_DIR$/home-service/src/test/java/com/example/homeservice/HomeEntityServiceApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            <state relative-caret-position="63">
+              <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -78,29 +49,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/services/HomeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="204">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/controller/HomeController.java">
+        <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/repository/HomeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/dto/EntityDtoConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="264">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,33 +92,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/RegisterController.java">
+        <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/sender/RequestSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="77">
+              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login-service/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/dao/HomeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/resource/HomeResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+            <state relative-caret-position="199">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1160#1161#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,8 +118,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/facade/HomeFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+            <state relative-caret-position="216">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,8 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/register-service/src/main/java/com/example/dbservice/service/RegisterService.java" />
-        <option value="$PROJECT_DIR$/register-service/src/main/java/com/example/dbservice/entity/dto/UserConverter.java" />
         <option value="$PROJECT_DIR$/register-service/src/main/java/com/example/dbservice/entity/dao/RegisterDao.java" />
         <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/dto/UserHomeDto.java" />
         <option value="$PROJECT_DIR$/register-service/src/main/java/com/example/dbservice/controller/RegisterController.java" />
@@ -199,15 +177,11 @@
         <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/dto/StateDto.java" />
         <option value="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/HomeClient.java" />
         <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/dto/HomeDataDto.java" />
-        <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/sender/RequestSender.java" />
-        <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/services/HomeService.java" />
         <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/dao/HomeDao.java" />
-        <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/facade/HomeFacade.java" />
         <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/repository/HomeRepository.java" />
         <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/dto/EntityDtoConverter.java" />
         <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/SimpleCorsFilter.java" />
         <option value="$PROJECT_DIR$/login-service/pom.xml" />
-        <option value="$PROJECT_DIR$/home-service/pom.xml" />
         <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/clients/LoginClient.java" />
         <option value="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/utilities/FeignErrorDecoder.java" />
@@ -224,6 +198,12 @@
         <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/resource/HomeResource.java" />
         <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/configuration/Security.java" />
         <option value="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/home-service/pom.xml" />
+        <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/facade/HomeFacade.java" />
+        <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/HomeServiceApplication.java" />
+        <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/services/HomeService.java" />
+        <option value="$PROJECT_DIR$/home-service/src/test/java/com/example/homeservice/HomeEntityServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/sender/RequestSender.java" />
       </list>
     </option>
   </component>
@@ -258,11 +238,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1208" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -280,6 +259,41 @@
             <path>
               <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
               <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helloeurekaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
               <item name="home-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,16 +325,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="homeservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="home-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homeservice" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
@@ -337,73 +341,163 @@
               <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
               <item name="home-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="home-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="home-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="homeservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="fingerprint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
+              <item name="facade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="login-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="home-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="login-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="login-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="login-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="login-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="login-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="login-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="login-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loginservice" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
@@ -428,14 +522,6 @@
             <path>
               <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
               <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="login-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
               <item name="register-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -494,97 +580,177 @@
               <item name="register-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootzuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootzuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootzuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootzuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="fingerprint" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
               <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="register-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springbootzuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="register-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="register-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="register-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="register-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
+              <item name="facade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="register-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="register-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
               <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="register-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="register-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
+              <item name="sender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="register-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dbservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
               <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="licenta-test1" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-zuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springbootzuulgatwayproxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="licenta-test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -596,14 +762,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-zuulgatwayproxy/spring-boot-zuulgatwayproxy.iml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-zuulgatwayproxy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -622,15 +788,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootZuulgatwayproxyApplication">
-    <configuration name="HelloEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="hello-eureka-server" />
+  <component name="RunManager" selected="Spring Boot.HomeServiceApplication">
+    <configuration name="HomeEntityServiceApplicationTests.setFans_whenUserInfoIsRetrieved_then_fansUpdated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="home-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.logicbig.example.helloeurekaserver.*" />
+          <option name="PATTERN" value="com.example.homeservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.homeservice" />
+      <option name="MAIN_CLASS_NAME" value="com.example.homeservice.HomeEntityServiceApplicationTests" />
+      <option name="METHOD_NAME" value="setFans_whenUserInfoIsRetrieved_then_fansUpdated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.logicbig.example.helloeurekaserver.HelloEurekaServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -679,7 +855,7 @@
       <module name="spring-boot-zuulgatwayproxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springbootzuulgatwayproxy.utilities.*" />
+          <option name="PATTERN" value="com.example.springbootzuulgatwayproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -689,19 +865,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.RegisterServiceApplication" />
+      <item itemvalue="JUnit.HomeEntityServiceApplicationTests.setFans_whenUserInfoIsRetrieved_then_fansUpdated" />
       <item itemvalue="Spring Boot.HelloEurekaServerApplication" />
       <item itemvalue="Spring Boot.HomeServiceApplication" />
-      <item itemvalue="Spring Boot.LoginServiceApplication" />
       <item itemvalue="Spring Boot.SpringBootZuulgatwayproxyApplication" />
+      <item itemvalue="Spring Boot.RegisterServiceApplication" />
+      <item itemvalue="Spring Boot.LoginServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringBootZuulgatwayproxyApplication" />
-        <item itemvalue="Spring Boot.LoginServiceApplication" />
         <item itemvalue="Spring Boot.HomeServiceApplication" />
+        <item itemvalue="Spring Boot.LoginServiceApplication" />
         <item itemvalue="Spring Boot.RegisterServiceApplication" />
-        <item itemvalue="Spring Boot.HelloEurekaServerApplication" />
+        <item itemvalue="Spring Boot.SpringBootZuulgatwayproxyApplication" />
+        <item itemvalue="JUnit.HomeEntityServiceApplicationTests.setFans_whenUserInfoIsRetrieved_then_fansUpdated" />
       </list>
     </recent_temporary>
   </component>
@@ -721,17 +898,54 @@
       <workItem from="1562103560429" duration="28000" />
       <workItem from="1562152488591" duration="12840000" />
       <workItem from="1562324896145" duration="9207000" />
-      <workItem from="1562414927831" duration="10898000" />
+      <workItem from="1562414927831" duration="11612000" />
+      <workItem from="1562596813489" duration="2655000" />
+      <workItem from="1562672377672" duration="9253000" />
+      <workItem from="1562762679831" duration="1304000" />
+      <workItem from="1563016114888" duration="4410000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HomeEntityServiceApplicationTests_setFans_whenUserInfoIsRetrieved_then_fansUpdated - 2019.07.09 at 17h 00m 32s.xml">
+      <configuration name="HomeEntityServiceApplicationTests.setFans_whenUserInfoIsRetrieved_then_fansUpdated" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeEntityServiceApplicationTests_setFans_whenUserInfoIsRetrieved_then_fansUpdated - 2019.07.09 at 17h 02m 44s.xml">
+      <configuration name="HomeEntityServiceApplicationTests.setFans_whenUserInfoIsRetrieved_then_fansUpdated" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeEntityServiceApplicationTests_setFans_whenUserInfoIsRetrieved_then_fansUpdated - 2019.07.09 at 17h 05m 01s.xml">
+      <configuration name="HomeEntityServiceApplicationTests.setFans_whenUserInfoIsRetrieved_then_fansUpdated" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeEntityServiceApplicationTests_setFans_whenUserInfoIsRetrieved_then_fansUpdated - 2019.07.09 at 17h 06m 45s.xml">
+      <configuration name="HomeEntityServiceApplicationTests.setFans_whenUserInfoIsRetrieved_then_fansUpdated" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeEntityServiceApplicationTests_setFans_whenUserInfoIsRetrieved_then_fansUpdated - 2019.07.09 at 17h 08m 52s.xml">
+      <configuration name="HomeEntityServiceApplicationTests.setFans_whenUserInfoIsRetrieved_then_fansUpdated" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeEntityServiceApplicationTests - 2019.07.09 at 17h 11m 35s.xml">
+      <configuration name="HomeEntityServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeEntityServiceApplicationTests_getData_whenUserInfoIsRetrieved_then_dataIsReceived - 2019.07.09 at 17h 15m 11s.xml">
+      <configuration name="HomeEntityServiceApplicationTests.getData_whenUserInfoIsRetrieved_then_dataIsReceived" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeEntityServiceApplicationTests_getData_whenUserInfoIsRetrieved_then_dataIsReceived - 2019.07.09 at 17h 21m 33s.xml">
+      <configuration name="HomeEntityServiceApplicationTests.getData_whenUserInfoIsRetrieved_then_dataIsReceived" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeEntityServiceApplicationTests_setFans_whenUserInfoIsRetrieved_then_fansUpdated - 2019.07.09 at 17h 22m 54s.xml">
+      <configuration name="HomeEntityServiceApplicationTests.setFans_whenUserInfoIsRetrieved_then_fansUpdated" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HomeEntityServiceApplicationTests_setFans_whenUserInfoIsRetrieved_then_fansUpdated - 2019.07.09 at 17h 24m 09s.xml">
+      <configuration name="HomeEntityServiceApplicationTests.setFans_whenUserInfoIsRetrieved_then_fansUpdated" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56591000" />
+    <option name="totallyTimeSpent" value="74927000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="0" width="966" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.790404" visible="true" weight="0.27919462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.790404" visible="true" weight="0.48565122" />
       <window_info id="Structure" order="1" sideWeight="0.20959596" side_tool="true" weight="0.27919462" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -742,18 +956,18 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43909347" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38538682" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -765,6 +979,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info active="true" anchor="right" id="Coverage" order="10" side_tool="true" visible="true" weight="0.23020135" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.790404" visible="true" weight="0.27919462" />
@@ -806,171 +1021,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/licenta_test1$HomeEntityServiceApplicationTests.ic" NAME="HomeEntityServiceApplicationTests Coverage Results" MODIFIED="1562681444840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.homeservice.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/licenta_test1$HomeEntityServiceApplicationTests_setFans_whenUserInfoIsRetrieved_thenFans_200isReceived.ic" NAME="HomeEntityServiceApplicationTests.setFans_whenUserInfoIsRetrieved_thenFans_200isReceived Coverage Results" MODIFIED="1562678996148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.homeservice.*</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/SimpleCorsFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <marker date="1562331788076" expanded="true" signature="2:1098" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/repository/HomeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#68#1" expanded="true" />
-            <element signature="e#0#75#1" expanded="true" />
-            <element signature="e#0#70#1" expanded="true" />
-            <element signature="e#0#127#1" expanded="true" />
-            <element signature="e#0#55#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/sender/RequestSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/security/JwtAuthenticationTokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/config/JwtSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register-service/src/main/java/com/example/dbservice/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register-service/src/main/java/com/example/dbservice/resource/RegisterResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="114" column="32" selection-start-line="114" selection-start-column="32" selection-end-line="114" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register-service/src/main/java/com/example/dbservice/sender/RequestSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/message/MessageCatalog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register-service/src/main/java/com/example/dbservice/configuration/BussinesException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/UserController1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="86" column="21" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/security/JwtGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#782#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/utilities/CorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/dto/StateDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/facade/GatewayFacade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -1037,18 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/HomeServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1127,17 +1174,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-service/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="238">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/configuration/Security.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="119">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1146,66 +1193,1192 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="289">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/controller/RegisterController.java">
+    <entry file="uml://MODULES/mdl-home-service">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-home-service</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-home-service</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="10.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SpringLocalModels/module=home-service">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>module=home-service</OriginalElement>
+          <nodes>
+            <node x="" y="">module=home-service</node>
+            <node x="" y="">fileset=home-service/HomeServiceApplication</node>
+            <node x="" y="">com.example.homeservice.HomeServiceApplication</node>
+            <node x="" y="">org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration.EurekaClientConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.client.serviceregistry.ServiceRegistryAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration.EurekaHealthIndicatorConfiguration</node>
+            <node x="" y="">org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration.RefreshableEurekaClientConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.commons.httpclient.HttpClientConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.security.servlet.SecurityRequestMatcherProviderAutoConfiguration.MvcRequestMatcherConfiguration</node>
+            <node x="" y="">org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration.LoadBalancerInterceptorConfig</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration</node>
+            <node x="" y="">org.springframework.cloud.client.discovery.noop.NoopDiscoveryClientAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.EnableWebMvcConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.ParameterNamesModuleConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration</node>
+            <node x="" y="">com.example.homeservice.configuration.Security</node>
+            <node x="" y="">org.springframework.security.config.annotation.web.configuration.EnableWebSecurity</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.aop.AopAutoConfiguration.CglibAutoProxyConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration.RibbonClientHttpRequestFactoryConfiguration</node>
+            <node x="" y="">org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration.AsyncRestTemplateCustomizerConfig</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration.JdbcTemplateConfiguration</node>
+            <node x="" y="">org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClientAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration.LoggingCodecConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.ArchaiusEndpointConfiguration</node>
+            <node x="" y="">org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.netflix.ribbon.eureka.RibbonEurekaAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheManagerJpaDependencyConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration.JacksonCodecConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration</node>
+            <node x="" y="">org.springframework.cloud.client.hypermedia.CloudHypermediaAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.EnableTransactionManagementConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.TransactionTemplateConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.client.CommonsClientAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.security.servlet.SecurityRequestMatcherProviderAutoConfiguration</node>
+            <node x="" y="">springfox.documentation.swagger2.annotations.EnableSwagger2</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.aop.AopAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration.EurekaClientConfigurationRefresher</node>
+            <node x="" y="">org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration.LoadBalancerInterceptorConfig</node>
+            <node x="" y="">org.springframework.cloud.netflix.hystrix.security.HystrixSecurityAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration.NamedParameterJdbcTemplateConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration.DataSourceTransactionManagerConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration</node>
+            <node x="" y="">org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration.PooledDataSourceConfiguration</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration</node>
+            <node x="" y="">fileset=home-service/HomeServiceApplication Bootstrap</node>
+            <node x="" y="">fileset=home-service/HomeServiceApplication MVC</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.1190909090909093" x="1682.0" y="2854.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Show filesets as groups</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/Ciurean Catalin/Desktop/licenta/licenta-test1/home-service/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/home-service/src</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="534.0" y="328.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/configuration/Security.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="238">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/security/JwtAuthenticationEntryPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="102">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/services/HomeService.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/security/JwtAuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="85">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/src/main/java/com/example/springbootzuulgatwayproxy/security/JwtAuthenticationTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/message/MessageCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/HomeEntity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="364" column="27" selection-start-line="364" selection-start-column="27" selection-end-line="364" selection-end-column="27" />
+          <folding>
+            <element signature="e#12545#12546#0" expanded="true" />
+            <element signature="e#12592#12593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/resource/HomeResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+        <state relative-caret-position="204">
+          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/facade/HomeFacade.java">
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/dto/StateDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/controller/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/HomeServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="79" column="34" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+        <state relative-caret-position="102">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/dto/home.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="122.0" y="87.0">com.example.homeservice.repository.HomeRepository</node>
+            <node x="662.0254166666666" y="271.0">com.example.homeservice.entity.dto.UserHomeConverter</node>
+            <node x="171.5275" y="194.0">com.example.homeservice.services.HomeService</node>
+            <node x="247.0" y="594.0">com.example.homeservice.configuration.Security</node>
+            <node x="550.5254166666666" y="194.0">com.example.homeservice.entity.dto.EntityDtoConverter</node>
+            <node x="400.7754166666666" y="445.0">com.example.homeservice.facade.HomeFacade</node>
+            <node x="329.2729166666667" y="87.0">com.example.homeservice.entity.dto.HomeDataDto</node>
+            <node x="359.5254166666666" y="522.0">com.example.homeservice.resource.HomeResource</node>
+            <node x="147.52541666666662" y="271.0">com.example.homeservice.entity.dao.HomeDao</node>
+            <node x="0.0" y="87.0">com.example.homeservice.entity.dto.StateDto</node>
+            <node x="0.0" y="594.0">com.example.homeservice.HomeServiceApplication</node>
+            <node x="781.965" y="194.0">com.example.homeservice.entity.dto.UserHomeDto</node>
+            <node x="414.3354166666667" y="0.0">com.example.homeservice.entity.HomeEntity</node>
+            <node x="436.2754166666666" y="368.0">com.example.homeservice.controller.HomeController</node>
+            <node x="393.5254166666666" y="194.0">com.example.homeservice.sender.RequestSender</node>
+            <node x="477.5254166666666" y="271.0">com.example.homeservice.entity.message.MessageCatalog</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.example.homeservice.entity.dto.UserHomeConverter" target="com.example.homeservice.entity.dto.UserHomeDto">
+              <point x="55.33333333333334" y="-13.5" />
+              <point x="800.35875" y="251.0" />
+              <point x="797.34" y="251.0" />
+              <point x="-46.125" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.services.HomeService" target="com.example.homeservice.entity.HomeEntity">
+              <point x="15.375" y="-13.5" />
+              <point x="248.4025" y="134.0" />
+              <point x="276.5" y="134.0" />
+              <point x="276.5" y="67.0" />
+              <point x="462.66875000000005" y="67.0" />
+              <point x="-9.666666666666686" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.services.HomeService" target="com.example.homeservice.entity.dto.HomeDataDto">
+              <point x="46.125" y="-13.5" />
+              <point x="279.15250000000003" y="144.0" />
+              <point x="336.10624999999993" y="144.0" />
+              <point x="-54.666666666666686" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.services.HomeService" target="com.example.homeservice.repository.HomeRepository">
+              <point x="-15.375" y="-13.5" />
+              <point x="217.6525" y="174.0" />
+              <point x="194.0" y="174.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.resource.HomeResource" target="com.example.homeservice.entity.dto.UserHomeDto">
+              <point x="48.75" y="-13.5" />
+              <point x="473.2754166666666" y="502.0" />
+              <point x="866.965" y="502.0" />
+              <point x="866.965" y="251.0" />
+              <point x="889.59" y="251.0" />
+              <point x="46.125" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.repository.HomeRepository" target="com.example.homeservice.entity.HomeEntity">
+              <point x="0.0" y="-13.5" />
+              <point x="194.0" y="57.0" />
+              <point x="443.3354166666667" y="57.0" />
+              <point x="-29.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.controller.HomeController" target="com.example.homeservice.entity.dto.UserHomeDto">
+              <point x="63.0" y="-13.5" />
+              <point x="571.2754166666666" y="348.0" />
+              <point x="839.8379166666666" y="348.0" />
+              <point x="839.8379166666666" y="251.0" />
+              <point x="828.09" y="251.0" />
+              <point x="-15.375" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.entity.dao.HomeDao" target="com.example.homeservice.entity.HomeEntity">
+              <point x="-11.75" y="-13.5" />
+              <point x="182.77541666666662" y="241.0" />
+              <point x="111.5" y="241.0" />
+              <point x="111.5" y="47.0" />
+              <point x="424.0020833333334" y="47.0" />
+              <point x="-48.333333333333314" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.controller.HomeController" target="com.example.homeservice.sender.RequestSender">
+              <point x="-9.0" y="-13.5" />
+              <point x="499.2754166666666" y="318.0" />
+              <point x="462.0254166666666" y="318.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.controller.HomeController" target="com.example.homeservice.entity.message.MessageCatalog">
+              <point x="9.0" y="-13.5" />
+              <point x="517.2754166666666" y="318.0" />
+              <point x="549.5254166666666" y="318.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.facade.HomeFacade" target="com.example.homeservice.entity.dto.UserHomeDto">
+              <point x="43.5" y="-13.5" />
+              <point x="502.2754166666666" y="425.0" />
+              <point x="850.8379166666666" y="425.0" />
+              <point x="850.8379166666666" y="251.0" />
+              <point x="858.84" y="251.0" />
+              <point x="15.375" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.entity.dto.EntityDtoConverter" target="com.example.homeservice.entity.HomeEntity">
+              <point x="57.666666666666686" y="-13.5" />
+              <point x="694.6920833333334" y="174.0" />
+              <point x="679.7754166666666" y="174.0" />
+              <point x="679.7754166666666" y="67.0" />
+              <point x="482.0020833333334" y="67.0" />
+              <point x="9.666666666666686" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.resource.HomeResource" target="com.example.homeservice.facade.HomeFacade">
+              <point x="16.25" y="-13.5" />
+              <point x="440.7754166666666" y="502.0" />
+              <point x="458.7754166666666" y="502.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.entity.dto.EntityDtoConverter" target="com.example.homeservice.entity.dto.HomeDataDto">
+              <point x="-57.66666666666666" y="-13.5" />
+              <point x="579.35875" y="154.0" />
+              <point x="431.7729166666667" y="154.0" />
+              <point x="41.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.controller.HomeController" target="com.example.homeservice.entity.dto.EntityDtoConverter">
+              <point x="27.0" y="-13.5" />
+              <point x="535.2754166666666" y="328.0" />
+              <point x="637.0254166666666" y="328.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.services.HomeService" target="com.example.homeservice.entity.dto.StateDto">
+              <point x="-46.125" y="-13.5" />
+              <point x="186.9025" y="174.0" />
+              <point x="90.89999999999998" y="174.0" />
+              <point x="40.39999999999998" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.facade.HomeFacade" target="com.example.homeservice.controller.HomeController">
+              <point x="14.5" y="-13.5" />
+              <point x="473.2754166666666" y="415.0" />
+              <point x="508.2754166666666" y="415.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.sender.RequestSender" target="com.example.homeservice.entity.dto.HomeDataDto">
+              <point x="34.25" y="-13.5" />
+              <point x="496.2754166666666" y="164.0" />
+              <point x="418.10625000000005" y="164.0" />
+              <point x="27.33333333333337" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.controller.HomeController" target="com.example.homeservice.entity.dto.UserHomeConverter">
+              <point x="45.0" y="-13.5" />
+              <point x="553.2754166666666" y="338.0" />
+              <point x="745.0254166666666" y="338.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.facade.HomeFacade" target="com.example.homeservice.entity.dto.StateDto">
+              <point x="-43.5" y="-13.5" />
+              <point x="415.2754166666666" y="425.0" />
+              <point x="43.11291666666665" y="425.0" />
+              <point x="43.11291666666665" y="164.0" />
+              <point x="30.299999999999955" y="164.0" />
+              <point x="-20.200000000000045" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.resource.HomeResource" target="com.example.homeservice.entity.dto.HomeDataDto">
+              <point x="-16.25" y="-13.5" />
+              <point x="408.2754166666666" y="492.0" />
+              <point x="331.94208333333336" y="492.0" />
+              <point x="331.94208333333336" y="164.0" />
+              <point x="363.4395833333333" y="164.0" />
+              <point x="-27.333333333333314" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.controller.HomeController" target="com.example.homeservice.entity.dto.HomeDataDto">
+              <point x="-27.0" y="-13.5" />
+              <point x="481.2754166666666" y="328.0" />
+              <point x="383.0254166666666" y="328.0" />
+              <point x="383.0254166666666" y="174.0" />
+              <point x="390.7729166666667" y="174.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.entity.dao.HomeDao" target="com.example.homeservice.entity.dto.HomeDataDto">
+              <point x="35.25" y="-13.5" />
+              <point x="229.77541666666662" y="251.0" />
+              <point x="315.31708333333336" y="251.0" />
+              <point x="315.31708333333336" y="154.0" />
+              <point x="349.7729166666667" y="154.0" />
+              <point x="-41.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.entity.dao.HomeDao" target="com.example.homeservice.entity.dto.StateDto">
+              <point x="-35.25" y="-13.5" />
+              <point x="159.27541666666662" y="251.0" />
+              <point x="69.57749999999999" y="251.0" />
+              <point x="69.57749999999999" y="174.0" />
+              <point x="70.70000000000005" y="174.0" />
+              <point x="20.200000000000045" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.facade.HomeFacade" target="com.example.homeservice.entity.dto.HomeDataDto">
+              <point x="-14.5" y="-13.5" />
+              <point x="444.2754166666666" y="415.0" />
+              <point x="350.75" y="415.0" />
+              <point x="350.75" y="174.0" />
+              <point x="377.10624999999993" y="174.0" />
+              <point x="-13.666666666666686" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.controller.HomeController" target="com.example.homeservice.entity.dao.HomeDao">
+              <point x="-45.0" y="-13.5" />
+              <point x="463.2754166666666" y="338.0" />
+              <point x="194.52541666666662" y="338.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.entity.dto.UserHomeConverter" target="com.example.homeservice.entity.HomeEntity">
+              <point x="-55.33333333333337" y="-13.5" />
+              <point x="689.6920833333332" y="251.0" />
+              <point x="734.0254166666666" y="251.0" />
+              <point x="734.0254166666666" y="57.0" />
+              <point x="501.3354166666667" y="57.0" />
+              <point x="29.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.controller.HomeController" target="com.example.homeservice.entity.dto.StateDto">
+              <point x="-63.0" y="-13.5" />
+              <point x="445.2754166666666" y="348.0" />
+              <point x="54.11291666666665" y="348.0" />
+              <point x="54.11291666666665" y="174.0" />
+              <point x="50.5" y="174.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.resource.HomeResource" target="com.example.homeservice.entity.dto.StateDto">
+              <point x="-48.75" y="-13.5" />
+              <point x="375.7754166666666" y="502.0" />
+              <point x="32.11291666666665" y="502.0" />
+              <point x="32.11291666666665" y="174.0" />
+              <point x="10.100000000000023" y="174.0" />
+              <point x="-40.39999999999998" y="13.5" />
+            </edge>
+            <edge source="com.example.homeservice.entity.dao.HomeDao" target="com.example.homeservice.services.HomeService">
+              <point x="11.75" y="-13.5" />
+              <point x="206.27541666666662" y="241.0" />
+              <point x="233.0275" y="241.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="164.0" y="220.0" />
+          <SelectedNodes>
+            <node>com.example.homeservice.sender.RequestSender</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-service/login.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="433.125" y="251.0">com.example.loginservice.entity.dao.UserDao</node>
+            <node x="478.875" y="348.0">com.example.loginservice.controller.LoginController</node>
+            <node x="0.0" y="574.0">com.example.loginservice.LoginServiceApplication</node>
+            <node x="578.3855105105105" y="174.0">com.example.loginservice.configuration.BussinesException</node>
+            <node x="0.0" y="174.0">com.example.loginservice.entity.dto.UserDto</node>
+            <node x="228.87500000000003" y="251.0">com.example.loginservice.controller.fingerprint.FingerPrintResource</node>
+            <node x="377.375" y="97.0">com.example.loginservice.repository.UserRepository</node>
+            <node x="765.3855105105105" y="97.0">com.example.loginservice.security.JwtGenerator</node>
+            <node x="564.875" y="251.0">com.example.loginservice.entity.message.MessageCatalog</node>
+            <node x="234.62500000000003" y="425.0">com.example.loginservice.facade.LoginFacade</node>
+            <node x="71.875" y="251.0">com.example.loginservice.entity.dto.UserConverter</node>
+            <node x="191.62500000000003" y="502.0">com.example.loginservice.resource.LoginResource</node>
+            <node x="346.625" y="174.0">com.example.loginservice.service.UserService</node>
+            <node x="389.37612612612617" y="0.0">com.example.loginservice.entity.UserEntity</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.entity.dto.UserConverter">
+              <point x="-50.33333333333326" y="-13.5" />
+              <point x="504.04166666666674" y="318.0" />
+              <point x="140.375" y="318.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.facade.LoginFacade" target="com.example.loginservice.controller.LoginController">
+              <point x="30.75" y="-13.5" />
+              <point x="326.875" y="400.0" />
+              <point x="554.375" y="400.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.entity.message.MessageCatalog" target="com.example.loginservice.configuration.BussinesException">
+              <point x="36.0" y="-13.5" />
+              <point x="672.875" y="226.0" />
+              <point x="661.3855105105105" y="226.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.security.JwtGenerator" target="com.example.loginservice.entity.UserEntity">
+              <point x="0.0" y="-13.5" />
+              <point x="830.3855105105105" y="47.0" />
+              <point x="498.9316816816817" y="47.0" />
+              <point x="51.55555555555554" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.repository.UserRepository" target="com.example.loginservice.entity.UserEntity">
+              <point x="0.0" y="-13.5" />
+              <point x="449.375" y="77.0" />
+              <point x="447.37612612612617" y="77.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.controller.fingerprint.FingerPrintResource" target="com.example.loginservice.entity.UserEntity">
+              <point x="-45.0" y="-13.5" />
+              <point x="273.875" y="226.0" />
+              <point x="296.25112612612617" y="226.0" />
+              <point x="296.25112612612617" y="67.0" />
+              <point x="421.5983483483484" y="67.0" />
+              <point x="-25.77777777777777" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.service.UserService" target="com.example.loginservice.repository.UserRepository">
+              <point x="30.75" y="-13.5" />
+              <point x="438.875" y="149.0" />
+              <point x="449.375" y="149.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.entity.dao.UserDao" target="com.example.loginservice.service.UserService">
+              <point x="-23.5" y="-13.5" />
+              <point x="456.625" y="226.0" />
+              <point x="438.875" y="226.0" />
+              <point x="30.75" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.entity.message.MessageCatalog">
+              <point x="16.77777777777783" y="-13.5" />
+              <point x="571.1527777777778" y="298.0" />
+              <point x="636.875" y="298.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.entity.dao.UserDao">
+              <point x="-16.77777777777783" y="-13.5" />
+              <point x="537.5972222222222" y="298.0" />
+              <point x="480.125" y="298.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.facade.LoginFacade" target="com.example.loginservice.entity.dto.UserDto">
+              <point x="-30.75" y="-13.5" />
+              <point x="265.375" y="400.0" />
+              <point x="47.587837837837924" y="400.0" />
+              <point x="47.587837837837924" y="226.0" />
+              <point x="35.25" y="226.0" />
+              <point x="-11.75" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.resource.LoginResource" target="com.example.loginservice.entity.dto.UserDto">
+              <point x="-34.25" y="-13.5" />
+              <point x="225.87500000000003" y="477.0" />
+              <point x="21.462837837837924" y="477.0" />
+              <point x="21.462837837837924" y="226.0" />
+              <point x="11.75" y="226.0" />
+              <point x="-35.25" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.entity.dto.UserConverter" target="com.example.loginservice.entity.UserEntity">
+              <point x="45.66666666666666" y="-13.5" />
+              <point x="186.04166666666666" y="226.0" />
+              <point x="172.44969969969975" y="226.0" />
+              <point x="172.44969969969975" y="57.0" />
+              <point x="408.7094594594595" y="57.0" />
+              <point x="-38.666666666666686" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.security.JwtGenerator">
+              <point x="67.11111111111109" y="-13.5" />
+              <point x="621.4861111111111" y="328.0" />
+              <point x="830.3855105105105" y="328.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.entity.dto.UserConverter" target="com.example.loginservice.entity.dto.UserDto">
+              <point x="-45.66666666666666" y="-13.5" />
+              <point x="94.70833333333337" y="226.0" />
+              <point x="82.25" y="226.0" />
+              <point x="35.25" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.resource.LoginResource" target="com.example.loginservice.facade.LoginFacade">
+              <point x="34.25" y="-13.5" />
+              <point x="294.375" y="477.0" />
+              <point x="296.125" y="477.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.controller.fingerprint.FingerPrintResource" target="com.example.loginservice.service.UserService">
+              <point x="45.0" y="-13.5" />
+              <point x="363.875" y="226.0" />
+              <point x="377.375" y="226.0" />
+              <point x="-30.75" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.configuration.BussinesException">
+              <point x="33.55555555555554" y="-13.5" />
+              <point x="587.9305555555555" y="308.0" />
+              <point x="734.2188438438438" y="308.0" />
+              <point x="734.2188438438438" y="226.0" />
+              <point x="716.7188438438438" y="226.0" />
+              <point x="55.33333333333337" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.controller.fingerprint.FingerPrintResource">
+              <point x="-33.55555555555554" y="-13.5" />
+              <point x="520.8194444444445" y="308.0" />
+              <point x="318.875" y="308.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.entity.dao.UserDao" target="com.example.loginservice.entity.UserEntity">
+              <point x="23.5" y="-13.5" />
+              <point x="503.625" y="226.0" />
+              <point x="531.875" y="226.0" />
+              <point x="531.875" y="77.0" />
+              <point x="460.265015015015" y="77.0" />
+              <point x="12.888888888888857" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.service.UserService" target="com.example.loginservice.entity.UserEntity">
+              <point x="-30.75" y="-13.5" />
+              <point x="377.375" y="149.0" />
+              <point x="366.875" y="149.0" />
+              <point x="366.875" y="77.0" />
+              <point x="434.4872372372373" y="77.0" />
+              <point x="-12.888888888888857" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.entity.UserEntity">
+              <point x="50.33333333333337" y="-13.5" />
+              <point x="604.7083333333334" y="318.0" />
+              <point x="754.8855105105105" y="318.0" />
+              <point x="754.8855105105105" y="57.0" />
+              <point x="486.04279279279285" y="57.0" />
+              <point x="38.666666666666686" y="13.5" />
+            </edge>
+            <edge source="com.example.loginservice.controller.LoginController" target="com.example.loginservice.entity.dto.UserDto">
+              <point x="-67.11111111111109" y="-13.5" />
+              <point x="487.2638888888889" y="328.0" />
+              <point x="61.375" y="328.0" />
+              <point x="61.375" y="226.0" />
+              <point x="58.75" y="226.0" />
+              <point x="11.75" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="220.0" />
+          <SelectedNodes>
+            <node>com.example.loginservice.LoginServiceApplication</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-zuulgatwayproxy/gateway.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="136.44444444444446" y="107.0">com.example.springbootzuulgatwayproxy.clients.RegisterClient</node>
+            <node x="301.44444444444446" y="107.0">com.example.springbootzuulgatwayproxy.clients.LoginClient</node>
+            <node x="515.6944444444445" y="184.0">com.example.springbootzuulgatwayproxy.controller.HomeController</node>
+            <node x="498.14545454545447" y="564.0">com.example.springbootzuulgatwayproxy.security.JwtAuthenticationProvider</node>
+            <node x="186.0" y="564.0">com.example.springbootzuulgatwayproxy.security.JwtAuthenticationTokenFilter</node>
+            <node x="484.73532986111115" y="338.0">com.example.springbootzuulgatwayproxy.resource.HomeResource</node>
+            <node x="0.0" y="713.0">com.example.springbootzuulgatwayproxy.utilities.FeignErrorDecoder</node>
+            <node x="471.51742424242417" y="487.0">com.example.springbootzuulgatwayproxy.security.JwtValidator</node>
+            <node x="249.51742424242417" y="487.0">com.example.springbootzuulgatwayproxy.model.JwtAuthenticationToken</node>
+            <node x="124.23532986111115" y="184.0">com.example.springbootzuulgatwayproxy.controller.RegisterController</node>
+            <node x="0.0" y="564.0">com.example.springbootzuulgatwayproxy.security.JwtSuccessHandler</node>
+            <node x="633.5174242424241" y="487.0">com.example.springbootzuulgatwayproxy.model.JwtUserDetails</node>
+            <node x="495.44444444444446" y="107.0">com.example.springbootzuulgatwayproxy.clients.HomeClient</node>
+            <node x="330.44444444444446" y="261.0">com.example.springbootzuulgatwayproxy.facade.GatewayFacade</node>
+            <node x="152.09722222222223" y="261.0">com.example.springbootzuulgatwayproxy.utilities.ImageSaver</node>
+            <node x="323.44444444444446" y="184.0">com.example.springbootzuulgatwayproxy.controller.LoginController</node>
+            <node x="0.0" y="338.0">com.example.springbootzuulgatwayproxy.resource.AuthenticationResource</node>
+            <node x="295.1007575757575" y="641.0">com.example.springbootzuulgatwayproxy.config.JwtSecurityConfig</node>
+            <node x="523.3674242424241" y="410.0">com.example.springbootzuulgatwayproxy.model.JwtUser</node>
+            <node x="122.95347222222222" y="0.0">com.example.springbootzuulgatwayproxy.dto.UserDto</node>
+            <node x="557.5534722222224" y="0.0">com.example.springbootzuulgatwayproxy.dto.StateDto</node>
+            <node x="211.0" y="713.0">com.example.springbootzuulgatwayproxy.utilities.CorsConfig</node>
+            <node x="741.1454545454544" y="564.0">com.example.springbootzuulgatwayproxy.security.JwtAuthenticationEntryPoint</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.example.springbootzuulgatwayproxy.config.JwtSecurityConfig" target="com.example.springbootzuulgatwayproxy.security.JwtSuccessHandler">
+              <point x="-66.39999999999998" y="-13.5" />
+              <point x="311.7007575757575" y="621.0" />
+              <point x="83.0" y="621.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.controller.RegisterController" target="com.example.springbootzuulgatwayproxy.clients.RegisterClient">
+              <point x="0.0" y="-13.5" />
+              <point x="210.73532986111115" y="159.0" />
+              <point x="208.44444444444446" y="159.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.facade.GatewayFacade" target="com.example.springbootzuulgatwayproxy.controller.LoginController">
+              <point x="0.0" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.clients.HomeClient" target="com.example.springbootzuulgatwayproxy.dto.StateDto">
+              <point x="0.0" y="-13.5" />
+              <point x="553.4444444444445" y="87.0" />
+              <point x="595.4284722222224" y="87.0" />
+              <point x="-12.625" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.facade.GatewayFacade" target="com.example.springbootzuulgatwayproxy.dto.StateDto">
+              <point x="27.399999999999977" y="-13.5" />
+              <point x="426.34444444444443" y="231.0" />
+              <point x="484.94444444444446" y="231.0" />
+              <point x="484.94444444444446" y="77.0" />
+              <point x="570.1784722222224" y="77.0" />
+              <point x="-37.875" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.security.JwtAuthenticationProvider" target="com.example.springbootzuulgatwayproxy.security.JwtValidator">
+              <point x="-44.59999999999991" y="-13.5" />
+              <point x="565.0454545454545" y="539.0" />
+              <point x="536.5174242424241" y="539.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.controller.RegisterController" target="com.example.springbootzuulgatwayproxy.dto.UserDto">
+              <point x="57.66666666666663" y="-13.5" />
+              <point x="268.4019965277778" y="159.0" />
+              <point x="290.94444444444446" y="159.0" />
+              <point x="290.94444444444446" y="77.0" />
+              <point x="190.84236111111113" y="77.0" />
+              <point x="20.888888888888914" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.security.JwtAuthenticationProvider" target="com.example.springbootzuulgatwayproxy.model.JwtAuthenticationToken">
+              <point x="-89.19999999999993" y="-13.5" />
+              <point x="520.4454545454546" y="539.0" />
+              <point x="417.8507575757575" y="539.0" />
+              <point x="67.33333333333331" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.controller.LoginController" target="com.example.springbootzuulgatwayproxy.dto.UserDto">
+              <point x="37.75" y="-13.5" />
+              <point x="436.69444444444446" y="159.0" />
+              <point x="434.94444444444446" y="159.0" />
+              <point x="434.94444444444446" y="57.0" />
+              <point x="211.73125" y="57.0" />
+              <point x="41.77777777777777" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.resource.HomeResource" target="com.example.springbootzuulgatwayproxy.dto.StateDto">
+              <point x="32.5" y="-13.5" />
+              <point x="582.2353298611112" y="318.0" />
+              <point x="670.1944444444445" y="318.0" />
+              <point x="670.1944444444445" y="87.0" />
+              <point x="645.9284722222224" y="87.0" />
+              <point x="37.875" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.resource.AuthenticationResource" target="com.example.springbootzuulgatwayproxy.utilities.ImageSaver">
+              <point x="40.39999999999998" y="-13.5" />
+              <point x="141.39999999999998" y="308.0" />
+              <point x="210.09722222222223" y="308.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.facade.GatewayFacade" target="com.example.springbootzuulgatwayproxy.dto.UserDto">
+              <point x="-54.80000000000001" y="-13.5" />
+              <point x="344.14444444444445" y="241.0" />
+              <point x="111.44444444444446" y="241.0" />
+              <point x="111.44444444444446" y="77.0" />
+              <point x="159.50902777777776" y="77.0" />
+              <point x="-10.444444444444457" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.config.JwtSecurityConfig" target="com.example.springbootzuulgatwayproxy.security.JwtAuthenticationEntryPoint">
+              <point x="66.39999999999998" y="-13.5" />
+              <point x="444.50075757575746" y="621.0" />
+              <point x="860.1454545454544" y="621.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.clients.RegisterClient" target="com.example.springbootzuulgatwayproxy.dto.UserDto">
+              <point x="0.0" y="-13.5" />
+              <point x="208.44444444444446" y="87.0" />
+              <point x="180.39791666666667" y="87.0" />
+              <point x="10.444444444444457" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.config.JwtSecurityConfig" target="com.example.springbootzuulgatwayproxy.security.JwtAuthenticationProvider">
+              <point x="33.19999999999999" y="-13.5" />
+              <point x="411.3007575757575" y="611.0" />
+              <point x="609.6454545454544" y="611.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.controller.HomeController" target="com.example.springbootzuulgatwayproxy.dto.StateDto">
+              <point x="36.0" y="-13.5" />
+              <point x="623.6944444444445" y="159.0" />
+              <point x="621.9444444444445" y="159.0" />
+              <point x="621.9444444444445" y="87.0" />
+              <point x="620.6784722222224" y="87.0" />
+              <point x="12.625" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.resource.AuthenticationResource" target="com.example.springbootzuulgatwayproxy.dto.UserDto">
+              <point x="0.0" y="-13.5" />
+              <point x="101.0" y="318.0" />
+              <point x="83.84513888888893" y="318.0" />
+              <point x="83.84513888888893" y="67.0" />
+              <point x="149.0645833333333" y="67.0" />
+              <point x="-20.888888888888914" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.facade.GatewayFacade" target="com.example.springbootzuulgatwayproxy.controller.HomeController">
+              <point x="54.799999999999955" y="-13.5" />
+              <point x="453.7444444444444" y="241.0" />
+              <point x="587.6944444444445" y="241.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.clients.LoginClient" target="com.example.springbootzuulgatwayproxy.dto.UserDto">
+              <point x="0.0" y="-13.5" />
+              <point x="362.94444444444446" y="67.0" />
+              <point x="201.28680555555553" y="67.0" />
+              <point x="31.333333333333314" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.config.JwtSecurityConfig" target="com.example.springbootzuulgatwayproxy.security.JwtAuthenticationTokenFilter">
+              <point x="-33.19999999999999" y="-13.5" />
+              <point x="344.9007575757575" y="611.0" />
+              <point x="247.25" y="611.0" />
+              <point x="-61.25" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.resource.AuthenticationResource" target="com.example.springbootzuulgatwayproxy.facade.GatewayFacade">
+              <point x="80.80000000000001" y="-13.5" />
+              <point x="181.8" y="318.0" />
+              <point x="364.69444444444446" y="318.0" />
+              <point x="-34.25" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.security.JwtAuthenticationProvider" target="com.example.springbootzuulgatwayproxy.model.JwtUser">
+              <point x="44.60000000000002" y="-13.5" />
+              <point x="654.2454545454545" y="539.0" />
+              <point x="623.0174242424241" y="539.0" />
+              <point x="623.0174242424241" y="457.0" />
+              <point x="607.9674242424242" y="457.0" />
+              <point x="37.60000000000002" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.security.JwtValidator" target="com.example.springbootzuulgatwayproxy.model.JwtUser">
+              <point x="0.0" y="-13.5" />
+              <point x="536.5174242424241" y="467.0" />
+              <point x="551.5674242424242" y="467.0" />
+              <point x="-18.799999999999955" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.resource.HomeResource" target="com.example.springbootzuulgatwayproxy.facade.GatewayFacade">
+              <point x="-32.5" y="-13.5" />
+              <point x="517.2353298611112" y="318.0" />
+              <point x="433.19444444444446" y="318.0" />
+              <point x="34.25" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.security.JwtAuthenticationTokenFilter" target="com.example.springbootzuulgatwayproxy.model.JwtAuthenticationToken">
+              <point x="61.25" y="-13.5" />
+              <point x="369.75" y="539.0" />
+              <point x="350.51742424242417" y="539.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.controller.LoginController" target="com.example.springbootzuulgatwayproxy.clients.LoginClient">
+              <point x="-37.75" y="-13.5" />
+              <point x="361.19444444444446" y="159.0" />
+              <point x="362.94444444444446" y="159.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.controller.HomeController" target="com.example.springbootzuulgatwayproxy.clients.HomeClient">
+              <point x="-36.0" y="-13.5" />
+              <point x="551.6944444444445" y="159.0" />
+              <point x="553.4444444444445" y="159.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.facade.GatewayFacade" target="com.example.springbootzuulgatwayproxy.controller.RegisterController">
+              <point x="-27.399999999999977" y="-13.5" />
+              <point x="371.5444444444445" y="231.0" />
+              <point x="210.73532986111115" y="231.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.springbootzuulgatwayproxy.security.JwtAuthenticationProvider" target="com.example.springbootzuulgatwayproxy.model.JwtUserDetails">
+              <point x="89.20000000000005" y="-13.5" />
+              <point x="698.8454545454545" y="539.0" />
+              <point x="705.5174242424241" y="539.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9" x="135.0" y="243.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register-service/register.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="333.0815927128426" y="943.0">com.example.dbservice.facade.RegisterFacade</node>
+            <node x="867.7378427128426" y="285.0">com.example.dbservice.security.JwtGenerator</node>
+            <node x="0.0" y="1136.0">com.example.dbservice.RegisterServiceApplication</node>
+            <node x="579.1128427128426" y="756.0">com.example.dbservice.controller.RegisterController</node>
+            <node x="112.61284271284262" y="637.0">com.example.dbservice.entity.dto.UserConverter</node>
+            <node x="1103.8079545454543" y="450.0">com.example.dbservice.configuration.BussinesException</node>
+            <node x="939.2378427128426" y="615.0">com.example.dbservice.entity.message.MessageCatalog</node>
+            <node x="564.3579184704186" y="0.0">com.example.dbservice.entity.UserEntity</node>
+            <node x="223.75" y="428.0">com.example.dbservice.entity.dto.UserHomeDto</node>
+            <node x="282.5815927128426" y="1042.0">com.example.dbservice.resource.RegisterResource</node>
+            <node x="574.6128427128426" y="285.0">com.example.dbservice.repository.RegisterRepository</node>
+            <node x="261.6128427128426" y="626.0">com.example.dbservice.sender.RequestSender</node>
+            <node x="0.0" y="362.0">com.example.dbservice.entity.dto.UserDto</node>
+            <node x="585.1128427128426" y="439.0">com.example.dbservice.service.RegisterService</node>
+            <node x="713.6128427128426" y="626.0">com.example.dbservice.entity.dao.RegisterDao</node>
+            <node x="494.6128427128426" y="626.0">com.example.dbservice.controller.fingerprint.FingerPrintResource</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.sender.RequestSender">
+              <point x="-46.6875" y="-68.5" />
+              <point x="656.9253427128426" y="716.0" />
+              <point x="368.1128427128426" y="716.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="com.example.dbservice.entity.dao.RegisterDao" target="com.example.dbservice.entity.UserEntity">
+              <point x="49.75" y="-24.5" />
+              <point x="862.8628427128426" y="595.0" />
+              <point x="847.9878427128426" y="595.0" />
+              <point x="847.9878427128426" y="255.0" />
+              <point x="704.2150613275614" y="255.0" />
+              <point x="50.85714285714289" y="112.5" />
+            </edge>
+            <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.entity.dto.UserDto">
+              <point x="-108.9375" y="-68.5" />
+              <point x="594.6753427128426" y="736.0" />
+              <point x="90.03125" y="736.0" />
+              <point x="90.03125" y="595.0" />
+              <point x="96.25" y="595.0" />
+              <point x="19.25" y="101.5" />
+            </edge>
+            <edge source="com.example.dbservice.resource.RegisterResource" target="com.example.dbservice.facade.RegisterFacade">
+              <point x="49.75" y="-24.5" />
+              <point x="431.8315927128426" y="1017.0" />
+              <point x="441.5815927128426" y="1017.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="com.example.dbservice.sender.RequestSender" target="com.example.dbservice.entity.dto.UserHomeDto">
+              <point x="0.0" y="-24.5" />
+              <point x="368.1128427128426" y="595.0" />
+              <point x="328.75" y="595.0" />
+              <point x="42.0" y="35.5" />
+            </edge>
+            <edge source="com.example.dbservice.facade.RegisterFacade" target="com.example.dbservice.controller.RegisterController">
+              <point x="54.25" y="-24.5" />
+              <point x="495.8315927128426" y="918.0" />
+              <point x="703.6128427128426" y="918.0" />
+              <point x="0.0" y="68.5" />
+            </edge>
+            <edge source="com.example.dbservice.controller.fingerprint.FingerPrintResource" target="com.example.dbservice.entity.UserEntity">
+              <point x="-49.75" y="-24.5" />
+              <point x="544.3628427128426" y="595.0" />
+              <point x="559.2378427128426" y="595.0" />
+              <point x="559.2378427128426" y="265.0" />
+              <point x="627.9293470418471" y="265.0" />
+              <point x="-25.428571428571445" y="112.5" />
+            </edge>
+            <edge source="com.example.dbservice.repository.RegisterRepository" target="com.example.dbservice.entity.UserEntity">
+              <point x="0.0" y="-13.5" />
+              <point x="657.1128427128426" y="265.0" />
+              <point x="653.3579184704186" y="265.0" />
+              <point x="0.0" y="112.5" />
+            </edge>
+            <edge source="com.example.dbservice.entity.dto.UserConverter" target="com.example.dbservice.entity.dto.UserHomeDto">
+              <point x="51.599999999999994" y="-13.5" />
+              <point x="228.71284271284264" y="595.0" />
+              <point x="286.75" y="595.0" />
+              <point x="0.0" y="35.5" />
+            </edge>
+            <edge source="com.example.dbservice.facade.RegisterFacade" target="com.example.dbservice.entity.dto.UserDto">
+              <point x="-54.25" y="-24.5" />
+              <point x="387.3315927128426" y="918.0" />
+              <point x="71.5" y="918.0" />
+              <point x="71.5" y="595.0" />
+              <point x="57.75" y="595.0" />
+              <point x="-19.25" y="101.5" />
+            </edge>
+            <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.entity.dto.UserConverter">
+              <point x="-77.8125" y="-68.5" />
+              <point x="625.8003427128426" y="726.0" />
+              <point x="177.11284271284262" y="726.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.controller.fingerprint.FingerPrintResource">
+              <point x="-15.5625" y="-68.5" />
+              <point x="688.0503427128426" y="706.0" />
+              <point x="594.1128427128426" y="706.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.entity.dao.RegisterDao">
+              <point x="15.5625" y="-68.5" />
+              <point x="719.1753427128426" y="706.0" />
+              <point x="813.1128427128426" y="706.0" />
+              <point x="0.0" y="24.5" />
+            </edge>
+            <edge source="com.example.dbservice.controller.fingerprint.FingerPrintResource" target="com.example.dbservice.service.RegisterService">
+              <point x="49.75" y="-24.5" />
+              <point x="-59.25" y="24.5" />
+            </edge>
+            <edge source="com.example.dbservice.entity.message.MessageCatalog" target="com.example.dbservice.configuration.BussinesException">
+              <point x="88.0" y="-35.5" />
+              <point x="1203.2378427128426" y="595.0" />
+              <point x="1182.8079545454543" y="595.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.dbservice.security.JwtGenerator" target="com.example.dbservice.entity.UserEntity">
+              <point x="0.0" y="-13.5" />
+              <point x="928.7378427128426" y="245.0" />
+              <point x="729.6436327561328" y="245.0" />
+              <point x="76.28571428571422" y="112.5" />
+            </edge>
+            <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.configuration.BussinesException">
+              <point x="108.93749999999997" y="-68.5" />
+              <point x="812.5503427128426" y="736.0" />
+              <point x="1301.7378427128426" y="736.0" />
+              <point x="1301.7378427128426" y="595.0" />
+              <point x="1235.4746212121213" y="595.0" />
+              <point x="52.66666666666674" y="13.5" />
+            </edge>
+            <edge source="com.example.dbservice.resource.RegisterResource" target="com.example.dbservice.entity.dto.UserDto">
+              <point x="-49.75" y="-24.5" />
+              <point x="332.3315927128426" y="1017.0" />
+              <point x="33.625" y="1017.0" />
+              <point x="33.625" y="595.0" />
+              <point x="19.25" y="595.0" />
+              <point x="-57.75" y="101.5" />
+            </edge>
+            <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.security.JwtGenerator">
+              <point x="46.6875" y="-68.5" />
+              <point x="750.3003427128426" y="716.0" />
+              <point x="928.7378427128426" y="716.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.dbservice.entity.dto.UserConverter" target="com.example.dbservice.entity.dto.UserDto">
+              <point x="-51.599999999999994" y="-13.5" />
+              <point x="125.5128427128426" y="595.0" />
+              <point x="134.75" y="595.0" />
+              <point x="57.75" y="101.5" />
+            </edge>
+            <edge source="com.example.dbservice.service.RegisterService" target="com.example.dbservice.repository.RegisterRepository">
+              <point x="-59.25" y="-24.5" />
+              <point x="644.3628427128426" y="337.0" />
+              <point x="657.1128427128426" y="337.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="com.example.dbservice.entity.dto.UserConverter" target="com.example.dbservice.entity.UserEntity">
+              <point x="0.0" y="-13.5" />
+              <point x="177.11284271284262" y="595.0" />
+              <point x="175.5" y="595.0" />
+              <point x="175.5" y="255.0" />
+              <point x="602.5007756132757" y="255.0" />
+              <point x="-50.85714285714289" y="112.5" />
+            </edge>
+            <edge source="com.example.dbservice.entity.dao.RegisterDao" target="com.example.dbservice.service.RegisterService">
+              <point x="-49.75" y="-24.5" />
+              <point x="59.25" y="24.5" />
+            </edge>
+            <edge source="com.example.dbservice.service.RegisterService" target="com.example.dbservice.entity.UserEntity">
+              <point x="59.25" y="-24.5" />
+              <point x="762.8628427128426" y="337.0" />
+              <point x="750.1128427128426" y="337.0" />
+              <point x="750.1128427128426" y="265.0" />
+              <point x="678.78648989899" y="265.0" />
+              <point x="25.428571428571445" y="112.5" />
+            </edge>
+            <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.entity.message.MessageCatalog">
+              <point x="77.8125" y="-68.5" />
+              <point x="781.4253427128426" y="726.0" />
+              <point x="1115.2378427128426" y="726.0" />
+              <point x="0.0" y="35.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="837.0" y="541.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/test/java/com/example/homeservice/HomeEntityServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/repository/HomeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/facade/HomeFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/dto/EntityDtoConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="264">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/entity/dao/HomeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/services/HomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/sender/RequestSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-service/src/main/java/com/example/homeservice/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

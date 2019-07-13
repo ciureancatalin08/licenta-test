@@ -22,23 +22,16 @@ public class HomeFacade {
         return homeController.lightsController(stateDto);
     }
 
-    ;
-
     public String fansControl(StateDto stateDto) {
         return homeController.fansController(stateDto);
     }
-
-    ;
 
     public String alarmsControl(StateDto stateDto) {
         return homeController.alarmsController(stateDto);
     }
 
     public HomeDataDto getData(String userName) {
-
-
             return homeController.getData(userName);
-
     }
 }
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="407.0" y="288.0">com.example.springbootzuulgatwayproxy.clients.RegisterClient</node>
+    <node x="350.0" y="432.0">com.example.springbootzuulgatwayproxy.clients.LoginClient</node>
+    <node x="0.0" y="360.0">com.example.springbootzuulgatwayproxy.controller.HomeController</node>
+    <node x="0.0" y="72.0">com.example.springbootzuulgatwayproxy.security.JwtAuthenticationProvider</node>
+    <node x="0.0" y="0.0">com.example.springbootzuulgatwayproxy.security.JwtAuthenticationTokenFilter</node>
+    <node x="0.0" y="432.0">com.example.springbootzuulgatwayproxy.resource.HomeResource</node>
+    <node x="0.0" y="216.0">com.example.springbootzuulgatwayproxy.utilities.FeignErrorDecoder</node>
+    <node x="175.0" y="432.0">com.example.springbootzuulgatwayproxy.security.JwtValidator</node>
+    <node x="268.0" y="72.0">com.example.springbootzuulgatwayproxy.model.JwtAuthenticationToken</node>
+    <node x="247.0" y="144.0">com.example.springbootzuulgatwayproxy.controller.RegisterController</node>
+    <node x="211.0" y="216.0">com.example.springbootzuulgatwayproxy.security.JwtSuccessHandler</node>
+    <node x="189.0" y="360.0">com.example.springbootzuulgatwayproxy.model.JwtUserDetails</node>
+    <node x="0.0" y="504.0">com.example.springbootzuulgatwayproxy.clients.HomeClient</node>
+    <node x="378.0" y="360.0">com.example.springbootzuulgatwayproxy.facade.GatewayFacade</node>
+    <node x="161.0" y="504.0">com.example.springbootzuulgatwayproxy.utilities.ImageSaver</node>
+    <node x="211.0" y="288.0">com.example.springbootzuulgatwayproxy.controller.LoginController</node>
+    <node x="0.0" y="144.0">com.example.springbootzuulgatwayproxy.resource.AuthenticationResource</node>
+    <node x="0.0" y="288.0">com.example.springbootzuulgatwayproxy.config.JwtSecurityConfig</node>
+    <node x="146.0" y="576.0">com.example.springbootzuulgatwayproxy.model.JwtUser</node>
+    <node x="285.0" y="576.0">com.example.springbootzuulgatwayproxy.dto.UserDto</node>
+    <node x="0.0" y="576.0">com.example.springbootzuulgatwayproxy.dto.StateDto</node>
+    <node x="322.0" y="504.0">com.example.springbootzuulgatwayproxy.utilities.CorsConfig</node>
+    <node x="290.0" y="0.0">com.example.springbootzuulgatwayproxy.security.JwtAuthenticationEntryPoint</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.9" x="527.9999999999999" y="326.0" />
+  <SelectedNodes>
+    <node>com.example.springbootzuulgatwayproxy.utilities.ImageSaver</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -20,7 +20,7 @@ public class HomeService {
         return homeRepository.save(homeEntity);
     }
 
-    @Transactional(propagation = Propagation.REQUIRED)
+
     public void setLights(StateDto stateDto) {
         homeRepository.setLigths(stateDto.getState(), stateDto.getUserName());
     }

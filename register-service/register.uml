@@ -3,116 +3,29 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="302.0" y="759.0">com.example.dbservice.facade.RegisterFacade</node>
-    <node x="628.0" y="391.0">com.example.dbservice.security.JwtGenerator</node>
-    <node x="475.0" y="577.0">com.example.dbservice.controller.RegisterController</node>
-    <node x="438.0" y="286.0">com.example.dbservice.entity.dto.UserConverter</node>
-    <node x="721.0" y="791.0">com.example.dbservice.configuration.BussinesException</node>
-    <node x="452.0" y="929.0">com.example.dbservice.entity.message.MessageCatalog</node>
-    <node x="854.0" y="0.0">com.example.dbservice.entity.UserEntity</node>
-    <node x="0.0" y="761.0">com.example.dbservice.resource.RegisterResource</node>
-    <node x="1167.0" y="272.0">com.example.dbservice.repository.RegisterRepository</node>
-    <node x="191.0" y="320.0">com.example.dbservice.entity.dto.UserDto</node>
-    <node x="1033.0" y="496.0">com.example.dbservice.service.RegisterService</node>
-    <node x="771.0" y="481.0">com.example.dbservice.entity.dao.RegisterDao</node>
-    <node x="769.0" y="616.0">com.example.dbservice.controller.fingerprint.FingerPrintResource</node>
+    <node x="278.0" y="386.0">com.example.dbservice.facade.RegisterFacade</node>
+    <node x="381.0" y="668.0">com.example.dbservice.security.JwtGenerator</node>
+    <node x="240.0" y="574.0">com.example.dbservice.RegisterServiceApplication</node>
+    <node x="414.0" y="0.0">com.example.dbservice.controller.RegisterController</node>
+    <node x="207.0" y="668.0">com.example.dbservice.entity.dto.UserConverter</node>
+    <node x="0.0" y="668.0">com.example.dbservice.configuration.BussinesException</node>
+    <node x="0.0" y="270.0">com.example.dbservice.entity.message.MessageCatalog</node>
+    <node x="0.0" y="0.0">com.example.dbservice.entity.UserEntity</node>
+    <node x="393.0" y="270.0">com.example.dbservice.entity.dto.UserHomeDto</node>
+    <node x="254.0" y="480.0">com.example.dbservice.resource.RegisterResource</node>
+    <node x="516.0" y="574.0">com.example.dbservice.repository.RegisterRepository</node>
+    <node x="0.0" y="480.0">com.example.dbservice.sender.RequestSender</node>
+    <node x="219.0" y="0.0">com.example.dbservice.entity.dto.UserDto</node>
+    <node x="0.0" y="386.0">com.example.dbservice.service.RegisterService</node>
+    <node x="494.0" y="480.0">com.example.dbservice.entity.dao.RegisterDao</node>
+    <node x="0.0" y="574.0">com.example.dbservice.controller.fingerprint.FingerPrintResource</node>
   </nodes>
   <notes />
-  <edges>
-    <edge source="com.example.dbservice.security.JwtGenerator" target="com.example.dbservice.entity.UserEntity">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.configuration.BussinesException">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.resource.RegisterResource" target="com.example.dbservice.entity.dto.UserDto">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.entity.dao.RegisterDao" target="com.example.dbservice.entity.UserEntity">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.security.JwtGenerator">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.entity.dto.UserDto">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.entity.dto.UserConverter" target="com.example.dbservice.entity.dto.UserDto">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.resource.RegisterResource" target="com.example.dbservice.facade.RegisterFacade">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.facade.RegisterFacade" target="com.example.dbservice.controller.RegisterController">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.controller.fingerprint.FingerPrintResource" target="com.example.dbservice.entity.UserEntity">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.service.RegisterService" target="com.example.dbservice.repository.RegisterRepository">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.repository.RegisterRepository" target="com.example.dbservice.entity.UserEntity">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.facade.RegisterFacade" target="com.example.dbservice.entity.dto.UserDto">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.entity.dto.UserConverter">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.entity.dao.RegisterDao">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.entity.dto.UserConverter" target="com.example.dbservice.entity.UserEntity">
-      <point x="20.467824015724574" y="0.0" />
-      <point x="-5.6843418860808015E-14" y="5.156216535930611" />
-    </edge>
-    <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.controller.fingerprint.FingerPrintResource">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.service.RegisterService" target="com.example.dbservice.entity.UserEntity">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.entity.dao.RegisterDao" target="com.example.dbservice.service.RegisterService">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.controller.RegisterController" target="com.example.dbservice.entity.message.MessageCatalog">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.controller.fingerprint.FingerPrintResource" target="com.example.dbservice.service.RegisterService">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="com.example.dbservice.entity.message.MessageCatalog" target="com.example.dbservice.configuration.BussinesException">
-      <point x="7.386907759678635" y="0.0" />
-      <point x="7.386907759678678" y="0.0" />
-    </edge>
-  </edges>
-  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="836.9999999999999" y="447.8571428571428" />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="837.0" y="448.0" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
-    <Category>Methods</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

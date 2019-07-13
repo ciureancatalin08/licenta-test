@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="213.0" y="72.0">com.example.homeservice.repository.HomeRepository</node>
+    <node x="0.0" y="72.0">com.example.homeservice.entity.dto.UserHomeConverter</node>
+    <node x="0.0" y="360.0">com.example.homeservice.services.HomeService</node>
+    <node x="0.0" y="432.0">com.example.homeservice.configuration.Security</node>
+    <node x="249.0" y="0.0">com.example.homeservice.entity.dto.EntityDtoConverter</node>
+    <node x="170.0" y="360.0">com.example.homeservice.facade.HomeFacade</node>
+    <node x="170.0" y="288.0">com.example.homeservice.entity.dto.HomeDataDto</node>
+    <node x="184.0" y="216.0">com.example.homeservice.resource.HomeResource</node>
+    <node x="296.0" y="432.0">com.example.homeservice.entity.dao.HomeDao</node>
+    <node x="148.0" y="432.0">com.example.homeservice.entity.dto.StateDto</node>
+    <node x="0.0" y="0.0">com.example.homeservice.HomeServiceApplication</node>
+    <node x="0.0" y="288.0">com.example.homeservice.entity.dto.UserHomeDto</node>
+    <node x="333.0" y="360.0">com.example.homeservice.entity.HomeEntity</node>
+    <node x="0.0" y="144.0">com.example.homeservice.controller.HomeController</node>
+    <node x="0.0" y="216.0">com.example.homeservice.sender.RequestSender</node>
+    <node x="191.0" y="144.0">com.example.homeservice.entity.message.MessageCatalog</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="452.0" y="307.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

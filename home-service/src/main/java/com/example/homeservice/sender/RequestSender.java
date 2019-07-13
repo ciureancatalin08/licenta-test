@@ -52,7 +52,9 @@ HomeDataDto homeDataDto;
         ResponseEntity<String> responseEntity = restTemplate
                 .exchange(baseUrl, HttpMethod.POST, request, String.class);
         String responseEntityBody = responseEntity.getBody();
+        System.out.println(responseEntityBody);
         JSONObject jsonObject = null;
+        System.out.println(userName);
         try {
             jsonObject = new JSONObject(responseEntityBody);
             homeDataDto.setUserName(userName);
