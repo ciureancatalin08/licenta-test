@@ -2,14 +2,21 @@ package com.example.loginservice.entity.dto;
 
 
 import com.example.loginservice.entity.UserEntity;
+import com.example.loginservice.passwordService.TrippleDes;
 import org.springframework.stereotype.Component;
 
 @Component
 public class UserConverter {
-    public UserEntity convertInputDTOtoEntity(UserDto userInputDTO) {
+   private TrippleDes trippleDes;
+    public UserEntity convertInputDTOtoEntity(UserDto userInputDTO){
+        try {
+            trippleDes = new TrippleDes();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         final UserEntity u = new UserEntity();
         u.setUserName(userInputDTO.getUserName());
-        u.setPassword(userInputDTO.getPassword());
+        u.setPassword(trippleDes.encrypt(userInputDTO.getPassword()));
         u.setFingerprintPath(userInputDTO.getFingerprintPath());
         u.setFingerPrintTemplate(userInputDTO.getFingerTemplate());
 
