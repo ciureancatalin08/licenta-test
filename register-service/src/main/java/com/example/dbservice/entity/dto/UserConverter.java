@@ -20,7 +20,9 @@ public class UserConverter {
         u.setLastName(userInputDTO.getLastName());
         u.setUserName(userInputDTO.getUserName());
         u.setEmail(userInputDTO.getEmail());
-        u.setPassword(trippleDes.encrypt(userInputDTO.getPassword()));
+        if (userInputDTO.getPassword().length()>8) {
+            u.setPassword(trippleDes.encrypt(userInputDTO.getPassword()));
+        } else u.setPassword("");
         u.setRole(userInputDTO.getRole());
         u.setFingerprintPath(userInputDTO.getFingerprintPath());
         u.setFingerPrintTemplate(userInputDTO.getFingerTemplate());
